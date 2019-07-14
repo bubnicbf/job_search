@@ -553,7 +553,7 @@
   \paragraphstyle
 }{%
   \par
-  \vspace{2mm}
+  \vspace{5mm}
 }
 
 % Define an environment for cventry

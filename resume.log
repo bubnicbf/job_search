@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  14 JUL 2019 20:25
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  30 JUL 2019 13:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1260,21 +1260,21 @@ Overfull \hbox (83.9679pt too wide) in alignment at lines 10--33
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 32.
+t line 33.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 32.
+(Font)              scaled to size 9.0pt on input line 33.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 32.
+(Font)              scaled to size 8.0pt on input line 33.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 32.
+(Font)              scaled to size 8.0pt on input line 33.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 32.
+(Font)              scaled to size 8.0pt on input line 33.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <8> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 32.
+t line 33.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 32.
+(Font)              scaled to size 8.0pt on input line 33.
  [1
 
 ]) (./resume/talks.tex) (./resume/writing.tex

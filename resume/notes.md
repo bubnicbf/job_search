@@ -19,8 +19,9 @@ Data Scientist - IBM, Explorys
 
 Data Integration Training Specialist - IBM
 
-* Ruby, Pig, DSL
-* XML/JSON/Bash/etc.
+* Ruby, Pig, DSL, Bash
+* XML/JSON/FHIR/CCDA
+* Git/Github/Bitbucket/Stash/SVN
 
 Software Engineer - AmTrust
 

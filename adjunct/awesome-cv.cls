@@ -702,3 +702,4 @@
       \letterenclosurestyle{\@letterenclname: \@letterenclosure} \\
     }
 }
+

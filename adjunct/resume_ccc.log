@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  26 NOV 2019 15:39
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  26 NOV 2019 16:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1088,7 +1088,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 LaTeX Info: Redefining \FA on input line 164.
 \g__fontspec_family_Roboto_int=\count295
 )
-No file resume_ccc.aux.
+(./resume_ccc.aux)
 \openout1 = `resume_ccc.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
@@ -1113,7 +1113,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
 LaTeX Font Info:    ... okay on input line 76.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 76.
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 76.
 
 *geometry* driver: auto-detecting
@@ -1208,12 +1208,10 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 76.
 LaTeX Info: Redefining \pageref on input line 76.
 LaTeX Info: Redefining \nameref on input line 76.
+
+(./resume_ccc.out) (./resume_ccc.out)
 \@outlinefile=\write6
 \openout6 = `resume_ccc.out'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 \headertextwidth=\skip79
 \headerphotowidth=\skip80
@@ -1289,20 +1287,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
  (./resume_ccc.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 101.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 101.
-
-
-Package rerunfilecheck Warning: File `resume_ccc.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `resume_ccc.out':
-(rerunfilecheck)             Before: 
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E.
+Package rerunfilecheck Info: File `resume_ccc.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
  ) 
 Here is how much of TeX's memory you used:
- 38157 strings out of 492970
- 753342 string characters out of 6133938
- 968356 words of memory out of 5000000
+ 38163 strings out of 492970
+ 753432 string characters out of 6133938
+ 968471 words of memory out of 5000000
  41683 multiletter control sequences out of 15000+600000
  532746 words of font info for 85 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

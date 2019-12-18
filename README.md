@@ -7,7 +7,7 @@
 
 #### Résumé
 
-You can see [PDF](https://github.com/bubnicbf/awesome_cv/blob/master/resume.pdf)
+You can see [PDF](https://github.com/bubnicbf/awesome_cv/blob/master/scientist/resume.pdf)
 
 
 

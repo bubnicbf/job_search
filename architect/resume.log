@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  9 JAN 2021 23:15
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  26 APR 2021 07:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1120,16 +1120,16 @@ LaTeX Info: Redefining \selectfont on input line 77.
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
 * driver: xetex
-* paper: a4paper
+* paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(39.83368pt, 517.84052pt, 39.83368pt)
-* v-part:(T,H,B)=(22.76228pt, 771.06952pt, 51.21504pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=517.84052pt
-* \textheight=771.06952pt
+* h-part:(L,W,R)=(39.83368pt, 534.62764pt, 39.83368pt)
+* v-part:(T,H,B)=(22.76228pt, 720.99266pt, 51.21504pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=534.62764pt
+* \textheight=720.99266pt
 * \oddsidemargin=-32.43631pt
 * \evensidemargin=-32.43631pt
 * \topmargin=-86.5077pt
@@ -1137,7 +1137,7 @@ LaTeX Info: Redefining \selectfont on input line 77.
 * \headsep=25.0pt
 * \topskip=11.0pt
 * \footskip=14.22636pt
-* \marginparwidth=50.0pt
+* \marginparwidth=59.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
@@ -1252,7 +1252,7 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/bx/n' will be
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 15.
 
-Overfull \hbox (83.9679pt too wide) in alignment at lines 10--33
+Overfull \hbox (82.28908pt too wide) in alignment at lines 10--33
 [] [] 
  []
 
@@ -1260,25 +1260,24 @@ Overfull \hbox (83.9679pt too wide) in alignment at lines 10--33
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 29.
+t line 32.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 29.
+(Font)              scaled to size 9.0pt on input line 32.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 29.
+(Font)              scaled to size 8.0pt on input line 32.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 29.
+(Font)              scaled to size 8.0pt on input line 32.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 29.
+(Font)              scaled to size 8.0pt on input line 32.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <8> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 29.
+t line 32.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 29.
+(Font)              scaled to size 8.0pt on input line 32.
  [1
 
-]) (./resume/writing.tex) (./resume/talks.tex
-[2]) (./resume/volunteer.tex
+]) [2] (./resume/writing.tex) (./resume/talks.tex) (./resume/volunteer.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/bx/n' will be
 (Font)              scaled to size 9.0pt on input line 17.
 ) (./resume/education.tex) [3]
@@ -1293,10 +1292,10 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 Here is how much of TeX's memory you used:
  38163 strings out of 492970
  753380 string characters out of 6133938
- 969389 words of memory out of 5000000
+ 968388 words of memory out of 5000000
  41683 multiletter control sequences out of 15000+600000
  532746 words of font info for 85 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 72i,12n,89p,10425b,417s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,12n,89p,10425b,415s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume.pdf (3 pages).

@@ -7,7 +7,7 @@
 
 #### Résumé
 
-You can see [PDF](https://github.com/bubnicbf/awesome_cv/blob/master/emr/resume.pdf)
+You can see [PDF](https://github.com/bubnicbf/awesome_cv/raw/emr/resume.pdf)
 
 
 
@@ -20,6 +20,3 @@ You can see [PDF](https://github.com/bubnicbf/awesome_cv/blob/master/emr/resume.
 [**Roboto**](https://github.com/google/roboto) is the default font on Android and ChromeOS, and the recommended font for Google’s visual language, Material Design.
 
 [**Source Sans Pro**](https://github.com/adobe-fonts/source-sans-pro) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.
-
-
-

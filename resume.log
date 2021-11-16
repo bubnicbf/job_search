@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  16 NOV 2021 16:40
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  16 NOV 2021 17:10
 entering extended mode
 **./resume.tex
 (resume.tex
@@ -985,58 +985,23 @@ Overfull \hbox (1.46pt too wide) in paragraph at lines 82--82
 []$[]$ $[]$$[]$ 
  []
 
-(resume/summary.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 16.0pt on input line 4.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 16.0pt on input line 4.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 15.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 15.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 15.
-
-Overfull \hbox (83.0091pt too wide) in alignment at lines 10--33
-[] [] 
- []
-
-) (resume/experience.tex
-LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not avail
-able
-(Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 31.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 31.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 31.
+(Font)              scaled to size 8.0pt on input line 102.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 31.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 31.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <8> not avail
-able
-(Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 31.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 31.
- [1
+(Font)              scaled to size 8.0pt on input line 102.
+[1
 
-]) [2] (resume/writing.tex) (resume/talks.tex)
-(resume/volunteer.tex
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 9.0pt on input line 17.
-) (resume/education.tex) [3] (resume.aux)
+] (resume.aux)
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32275 strings out of 411077
- 644171 string characters out of 2826292
- 1140099 words of memory out of 3000000
- 52416 multiletter control sequences out of 15000+600000
- 406130 words of font info for 104 fonts, out of 8000000 for 9000
+ 32220 strings out of 411077
+ 642541 string characters out of 2826292
+ 1106077 words of memory out of 3000000
+ 52389 multiletter control sequences out of 15000+600000
+ 406058 words of font info for 95 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 114i,12n,118p,778b,432s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 114i,11n,118p,546b,328s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume.pdf (3 pages).
+Output written on resume.pdf (1 page).

@@ -579,11 +579,11 @@
 % Define a paragraph for CV
 \newenvironment{cvparagraph}{%
   \vspace{\acvSectionContentTopSkip}
-  \vspace{-3mm}
+  \vspace{-2mm}
   \paragraphstyle
 }{%
   \par
-  \vspace{2mm}
+  \vspace{5mm}
 }
 
 % Define an environment for cventry

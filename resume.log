@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  17 NOV 2021 07:36
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  17 NOV 2021 08:24
 entering extended mode
 **./resume.tex
 (resume.tex
@@ -1022,17 +1022,18 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
 (Font)              scaled to size 8.0pt on input line 31.
  [1
 
-]) [2] (resume.aux)
+]) (resume/education.tex) (resume/writing.tex
+[2]) (resume/talks.tex) (resume/volunteer.tex) [3] (resume.aux)
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32253 strings out of 411077
- 643701 string characters out of 2826292
- 1142076 words of memory out of 3000000
- 52407 multiletter control sequences out of 15000+600000
+ 32273 strings out of 411077
+ 644075 string characters out of 2826292
+ 1142077 words of memory out of 3000000
+ 52415 multiletter control sequences out of 15000+600000
  406122 words of font info for 103 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 114i,12n,118p,582b,432s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 114i,12n,118p,571b,432s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume.pdf (2 pages).
+Output written on resume.pdf (3 pages).

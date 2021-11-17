@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  17 NOV 2021 07:22
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  17 NOV 2021 07:30
 entering extended mode
 **./resume.tex
 (resume.tex
@@ -985,17 +985,23 @@ Overfull \hbox (1.46pt too wide) in paragraph at lines 82--82
 []$[]$ $[]$$[]$ 
  []
 
-(resume/experience.tex
+(resume/summary.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 16.0pt on input line 4.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 16.0pt on input line 4.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 31.
+(Font)              scaled to size 10.0pt on input line 15.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 31.
+(Font)              scaled to size 10.0pt on input line 15.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 31.
+(Font)              scaled to size 9.0pt on input line 15.
+
+Overfull \hbox (83.0091pt too wide) in alignment at lines 10--33
+[] [] 
+ []
+
+) (resume/experience.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
@@ -1021,10 +1027,10 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32248 strings out of 411077
- 643610 string characters out of 2826292
- 1140076 words of memory out of 3000000
- 52405 multiletter control sequences out of 15000+600000
+ 32253 strings out of 411077
+ 643701 string characters out of 2826292
+ 1137076 words of memory out of 3000000
+ 52407 multiletter control sequences out of 15000+600000
  406122 words of font info for 103 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  114i,12n,118p,582b,432s stack positions out of 5000i,500n,10000p,200000b,80000s

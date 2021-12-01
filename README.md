@@ -1,5 +1,3 @@
-## Awesome CV?
-
 ## Preview
 
 #### Résumé

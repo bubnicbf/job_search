@@ -586,6 +586,7 @@
   \vspace{5mm}
 }
 
+
 % Define an environment for cventry
 \newenvironment{cventries}{%
   \vspace{\acvSectionContentTopSkip}
@@ -593,6 +594,7 @@
 }{%
   \end{center}
 }
+
 % Define an entry of cv information
 % Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<description>}
 \newcommand*{\cventry}[5]{%
@@ -681,6 +683,19 @@
   \vspace{-4.0mm}
 }
 
+% Define an environment for cvcenterlist
+\newenvironment{cvcenterlist}{%
+  \vspace{-4.0mm}
+  \begin{justify}
+  \paragraphstyle
+  \begin{itemize}[leftmargin=50ex, nosep, noitemsep]
+    \setlength{\parskip}{0pt}
+    \renewcommand{\labelitemi}{\bullet}
+}{%
+  \end{itemize}
+  \end{justify}
+  \vspace{-2.0mm}
+}
 
 %-------------------------------------------------------------------------------
 %                Commands for elements of Cover Letter

@@ -587,6 +587,28 @@
 }
 
 
+% Define a compact paragraph for CV
+\newenvironment{cvcompactparagraph}{%
+  \vspace{\acvSectionContentTopSkip}
+  \vspace{-2mm}
+  \paragraphstyle
+}{%
+  \par
+  \vspace{-4mm}
+}
+
+
+% Define a abstract paragraph for CV
+\newenvironment{cvabstractparagraph}{%
+  \vspace{\acvSectionContentTopSkip}
+  \vspace{2mm}
+  \paragraphstyle
+}{%
+  \par
+  \vspace{-4mm}
+}
+
+
 % Define an environment for cventry
 \newenvironment{cventries}{%
   \vspace{\acvSectionContentTopSkip}
@@ -641,7 +663,7 @@
   \begin{center}
     \setlength\tabcolsep{0pt}
     \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{1.5cm} L{\textwidth - 4.0cm} R{2.5cm}}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{1.5cm} L{\textwidth - 5.0cm} R{3.5cm}}
 }{%
     \end{tabular*}
   \end{center}
@@ -685,7 +707,7 @@
 
 % Define an environment for cvcenterlist
 \newenvironment{cvcenterlist}{%
-  \vspace{-4.0mm}
+  \vspace{2mm}
   \begin{justify}
   \paragraphstyle
   \begin{itemize}[leftmargin=50ex, nosep, noitemsep]

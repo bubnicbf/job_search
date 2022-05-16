@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  15 MAY 2022 07:36
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  16 MAY 2022 17:37
 entering extended mode
 **./resume.tex
 (resume.tex
@@ -1003,25 +1003,25 @@ Overfull \hbox (83.0091pt too wide) in alignment at lines 10--38
 
 ) (resume/experience.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 23.
+(Font)              scaled to size 9.0pt on input line 22.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 23.
+t line 22.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 23.
+(Font)              scaled to size 9.0pt on input line 22.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 23.
+(Font)              scaled to size 8.0pt on input line 22.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 23.
+(Font)              scaled to size 8.0pt on input line 22.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 23.
+(Font)              scaled to size 8.0pt on input line 22.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <8> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 23.
+t line 22.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 23.
+(Font)              scaled to size 8.0pt on input line 22.
  [1
 
 ] [2]) (resume/awards.tex
@@ -1063,12 +1063,12 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32332 strings out of 411077
- 646156 string characters out of 2826292
- 1141613 words of memory out of 3000000
- 52450 multiletter control sequences out of 15000+600000
+ 32335 strings out of 411077
+ 646200 string characters out of 2826292
+ 1142768 words of memory out of 3000000
+ 52453 multiletter control sequences out of 15000+600000
  407842 words of font info for 124 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 114i,12n,118p,598b,432s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 114i,12n,118p,664b,432s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume.pdf (4 pages).

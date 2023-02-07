@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  7 FEB 2023 16:06
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  7 FEB 2023 16:09
 entering extended mode
 **./resume.tex
 (resume.tex
@@ -1029,13 +1029,14 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 12.0pt on input line 61.
 [1
 
-]) (resume/awards.tex
+]) (resume/volunteer.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 19.0pt on input line 4.
- [2]
+ [2]) (resume/awards.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 11.0pt on input line 17.
-) (resume/talks.tex) (resume/writing.tex
+) (resume/talks.tex [3])
+(resume/writing.tex
 LaTeX Font Info:    Calculating math sizes for size <13> on input line 22.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
 (Font)              scaled to size 13.00139pt on input line 22.
@@ -1056,7 +1057,7 @@ Overfull \hbox (2.3025pt too wide) in paragraph at lines 46--46
  []\TU/SourceSansPro(2)/m/it/12 shinyapps.io[]|
  []
 
-[3]) (resume/volunteer.tex) (resume/education.tex
+) (resume/education.tex
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 17.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
 (Font)              scaled to size 11.00117pt on input line 17.

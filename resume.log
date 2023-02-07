@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  7 FEB 2023 09:26
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  7 FEB 2023 15:25
 entering extended mode
 **./resume.tex
 (resume.tex
@@ -1003,45 +1003,39 @@ Overfull \hbox (91.7061pt too wide) in alignment at lines 10--38
 
 ) (resume/experience.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 22.
+(Font)              scaled to size 12.0pt on input line 31.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <12> not avai
 lable
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 22.
+t line 31.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 22.
+(Font)              scaled to size 12.0pt on input line 31.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 11.0pt on input line 22.
+(Font)              scaled to size 11.0pt on input line 31.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <11> not avai
 lable
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 22.
+t line 31.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 11.0pt on input line 22.
+(Font)              scaled to size 11.0pt on input line 31.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 70.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.00128pt on input line 70.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.00085pt on input line 70.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 70.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 70.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 70.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 70.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 11.0pt on input line 70.
+(Font)              scaled to size 9.0pt on input line 31.
 
-Overfull \hbox (42.67914pt too wide) in alignment at lines 70--70
-[] [] 
+Overfull \hbox (2.92001pt too wide) in paragraph at lines 31--43
+   [] 
  []
 
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 61.
 [1
 
-] [2] [3]) (resume/awards.tex) (resume/talks.tex [4]) (resume/writing.tex
+]) (resume/awards.tex
+LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
+(Font)              scaled to size 19.0pt on input line 4.
+ [2]
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
+(Font)              scaled to size 11.0pt on input line 17.
+) (resume/talks.tex) (resume/writing.tex
 LaTeX Font Info:    Calculating math sizes for size <13> on input line 22.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
 (Font)              scaled to size 13.00139pt on input line 22.
@@ -1057,8 +1051,8 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 6.4993pt on input line 22.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 9.09996pt on input line 22.
-)
-(resume/volunteer.tex [5]) (resume/education.tex
+ [3])
+(resume/volunteer.tex) (resume/education.tex [4]
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 17.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
 (Font)              scaled to size 11.00117pt on input line 17.
@@ -1074,17 +1068,17 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 5.4994pt on input line 17.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 7.69997pt on input line 17.
-) [6] (resume.aux)
+) [5] (resume.aux)
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32371 strings out of 411077
- 647361 string characters out of 2826292
- 1136969 words of memory out of 3000000
- 52477 multiletter control sequences out of 15000+600000
- 411106 words of font info for 141 fonts, out of 8000000 for 9000
+ 32360 strings out of 411077
+ 646753 string characters out of 2826292
+ 1137649 words of memory out of 3000000
+ 52474 multiletter control sequences out of 15000+600000
+ 409459 words of font info for 130 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 114i,17n,118p,701b,509s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 114i,12n,118p,546b,442s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume.pdf (6 pages).
+Output written on resume.pdf (5 pages).

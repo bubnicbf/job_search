@@ -215,6 +215,13 @@
 \newcommand*{\subentrylocationstyle}[1]{{\fontsize{10pt}{1em}\bodyfontlight\slshape\color{awesome} #1}}
 \newcommand*{\subdescriptionstyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\upshape\color{text} #1}}
 
+% For elements of subposition
+\newcommand*{\subpospositionstyle}[1]{{\fontsize{12pt}{1em}\bodyfont\scshape\color{graytext} #1}}
+\newcommand*{\subpostitlestyle}[1]{{\fontsize{12pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
+\newcommand*{\subpospromotionstyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{awesome} #1}}
+\newcommand*{\subposdatestyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
+
+
 % For elements of honor
 \newcommand*{\honortitlestyle}[1]{{\fontsize{11pt}{1em}\bodyfont\color{graytext} #1}}
 \newcommand*{\honorpositionstyle}[1]{{\fontsize{11pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
@@ -656,6 +663,48 @@
 }
 
 % Define an entry of cv information
+% Usage: \cvexpheader{<position>}{<title>}{<location>}{<date>}
+\newcommand*{\cvexpheader}[4]{%
+  \vspace{-2.0mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
+    \ifempty{#2#3}
+      {\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
+      {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
+      \entrypositionstyle{#1} & \entrydatestyle{#4}}
+  \end{tabular*}%
+}
+
+% Define an entry of cv information
+% Usage: \cvexpsubheader{<position>}{<title>}{<location>}{<date>}
+\newcommand*{\cvexpsubheader}[3]{%
+  \vspace{-2.0mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{2.0cm} L{\textwidth - 9.0cm} R{5.0cm} R{2.0cm}}
+    \ifempty{#2#3}
+      {\entrylocationstyle{#3} & \entrypositionstyle{#1} & \entrydatestyle{#2} & \\}
+      {\entrylocationstyle{#3} & \entrytitlestyle{#1} & \entrydatestyle{#2} & \\}
+  \end{tabular*}%
+}
+
+% Define an entry of cv information
+% Usage: \cvexpsubposition{<title>}{<dates>}{<promotion>}
+\newcommand*{\cvexpsubposition}[5]{%
+  \vspace{-2.0mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{1.7cm} L{\textwidth - 9.0cm} R{5.0cm} R{1.0cm}}
+    \ifempty{#2#3}
+      {\subpospromotionstyle{#3} & \subpospositionstyle{#1} & \subposdatestyle{#2} & \\}
+      {\subpospromotionstyle{#3} & \subpostitlestyle{#1} & \subposdatestyle{#2} & \\}
+      & \multicolumn{2}{L{\textwidth - 3.0cm}}{\descriptionstyle{#4}} \\
+      & \multicolumn{2}{L{\textwidth - 3.0cm}}{\descriptionstyle{#5}}
+  \end{tabular*}%
+}
+
+% Define an entry of cv information
 % Usage: \cvexpentry{<position>}{<title>}{<location>}{<date>}{<tools>}{<description>}
 \newcommand*{\cvexpentry}[6]{%
   \vspace{-1.0mm}
@@ -716,7 +765,7 @@
   \begin{center}
     \setlength\tabcolsep{0pt}
     \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{2.5cm} L{\textwidth - 1.0cm}}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{2.0cm} L{\textwidth - 8.0cm} R{5.0cm} R{1.0cm}}
 }{%
     \end{tabular*}
   \end{center}
@@ -724,7 +773,7 @@
 % Define a line of cv information(honor, award or something else)
 % Usage: \cvposition{<promotiontag>}{<position>}{<dates>}
 \newcommand*{\cvposition}[3]{%
-  \honorlocationstyle{#3} & \honorpositionstyle{#1}, \entrydatestyle{#2} \\
+  \honorlocationstyle{#3} & \honorpositionstyle{#1} & \entrydatestyle{#2} & \\
 }
 
 % Define an environment for cvhonor

@@ -595,7 +595,7 @@
   \paragraphstylelight
 }{%
   \par
-  \vspace{-2mm}
+  \vspace{5mm}
 }
 
 

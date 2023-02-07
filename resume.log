@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  7 FEB 2023 15:50
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  7 FEB 2023 15:59
 entering extended mode
 **./resume.tex
 (resume.tex
@@ -1051,8 +1051,12 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 6.4993pt on input line 22.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 9.09996pt on input line 22.
- [3])
-(resume/volunteer.tex) (resume/education.tex
+
+Overfull \hbox (2.3025pt too wide) in paragraph at lines 46--46
+ []\TU/SourceSansPro(2)/m/it/12 shinyapps.io[]|
+ []
+
+[3]) (resume/volunteer.tex) (resume/education.tex
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 17.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
 (Font)              scaled to size 11.00117pt on input line 17.
@@ -1073,10 +1077,10 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32360 strings out of 411077
- 646753 string characters out of 2826292
- 1137649 words of memory out of 3000000
- 52474 multiletter control sequences out of 15000+600000
+ 32361 strings out of 411077
+ 646766 string characters out of 2826292
+ 1137809 words of memory out of 3000000
+ 52475 multiletter control sequences out of 15000+600000
  409459 words of font info for 130 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  114i,12n,118p,546b,442s stack positions out of 5000i,500n,10000p,200000b,80000s

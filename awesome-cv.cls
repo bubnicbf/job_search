@@ -716,15 +716,15 @@
   \begin{center}
     \setlength\tabcolsep{0pt}
     \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{2.5cm} L{\textwidth - 9.0cm} C{5.5cm}}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{2.5cm} L{\textwidth - 1.0cm}}
 }{%
     \end{tabular*}
   \end{center}
 }
 % Define a line of cv information(honor, award or something else)
-% Usage: \cvposition{<position>}{<title>}{<location>}{<date>}
-\newcommand*{\cvposition}[4]{%
-  \honorlocationstyle{#4} & \honorpositionstyle{#1}, \entrydatestyle{#2} & \honortitlestyle{#3} \\
+% Usage: \cvposition{<promotiontag>}{<position>}{<dates>}
+\newcommand*{\cvposition}[3]{%
+  \honorlocationstyle{#3} & \honorpositionstyle{#1}, \entrydatestyle{#2} \\
 }
 
 % Define an environment for cvhonor

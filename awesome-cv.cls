@@ -709,6 +709,24 @@
   \end{tabular*}
 }
 
+% Define an environment for cvposition
+\newenvironment{cvpositions}{%
+  \vspace{\acvSectionContentTopSkip}
+  \vspace{-8mm}
+  \begin{center}
+    \setlength\tabcolsep{0pt}
+    \setlength{\extrarowheight}{0pt}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{2.5cm} L{\textwidth - 9.0cm} C{5.5cm}}
+}{%
+    \end{tabular*}
+  \end{center}
+}
+% Define a line of cv information(honor, award or something else)
+% Usage: \cvposition{<position>}{<title>}{<location>}{<date>}
+\newcommand*{\cvposition}[4]{%
+  \honorlocationstyle{#4} & \honorpositionstyle{#1}, \entrydatestyle{#2} & \honortitlestyle{#3} \\
+}
+
 % Define an environment for cvhonor
 \newenvironment{cvhonors}{%
   \vspace{\acvSectionContentTopSkip}

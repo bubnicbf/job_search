@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  7 FEB 2023 15:59
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  7 FEB 2023 16:06
 entering extended mode
 **./resume.tex
 (resume.tex
@@ -1072,7 +1072,7 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 5.4994pt on input line 17.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 7.69997pt on input line 17.
- [4]) [5] (resume.aux)
+) [4] (resume.aux)
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
@@ -1085,4 +1085,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  114i,12n,118p,546b,442s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume.pdf (5 pages).
+Output written on resume.pdf (4 pages).

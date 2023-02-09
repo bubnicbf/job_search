@@ -722,7 +722,7 @@
 % Define an entry of cv information
 % Usage: \cvexpentry{<position>}{<title>}{<location>}{<date>}{<tools>}{<description>}
 \newcommand*{\cvexpentry}[6]{%
-  \vspace{-1.0mm}
+  \vspace{-3.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}

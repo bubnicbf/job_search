@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  9 FEB 2023 05:38
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  9 FEB 2023 05:46
 entering extended mode
 **./resume.tex
 (resume.tex
@@ -976,10 +976,6 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 11.0pt on input line 82.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
 (Font)              scaled to size 11.0pt on input line 82.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 82.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 82.
 
 Overfull \hbox (1.46pt too wide) in paragraph at lines 82--82
 []$[]$ $[]$$[]$ 
@@ -1020,83 +1016,27 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
 (Font)              scaled to size 11.0pt on input line 31.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 31.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 62.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 12.0pt on input line 62.
  [1
 
-]) (resume/volunteer.tex
-LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 19.0pt on input line 4.
- [2]
-Overfull \hbox (2.92001pt too wide) in paragraph at lines 20--55
-   [] 
- []
-
-
-Overfull \hbox (2.92001pt too wide) in paragraph at lines 20--55
-   [] 
- []
-
-
-Overfull \hbox (2.92001pt too wide) in paragraph at lines 20--55
-   [] 
- []
-
-) (resume/awards.tex
+]) (resume/awards.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 11.0pt on input line 14.
-) (resume/talks.tex
-Overfull \hbox (2.92001pt too wide) in paragraph at lines 22--68
-   [] 
- []
-
-
-Overfull \hbox (2.92001pt too wide) in paragraph at lines 22--68
-   [] 
- []
-
-
-Overfull \hbox (2.92001pt too wide) in paragraph at lines 22--68
-   [] 
- []
-
-
-Overfull \hbox (2.92001pt too wide) in paragraph at lines 22--68
-   [] 
- []
-
-) (resume/writing.tex [3]
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 22.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 13.00139pt on input line 22.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.10092pt on input line 22.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.50069pt on input line 22.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 12.99861pt on input line 22.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.09898pt on input line 22.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.4993pt on input line 22.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 9.09996pt on input line 22.
-
-Overfull \hbox (2.3025pt too wide) in paragraph at lines 46--46
- []\TU/SourceSansPro(2)/m/it/12 shinyapps.io[]|
- []
-
-) (resume/education.tex) [4] (resume.aux)
+ [2]) (resume/education.tex)
+[3] (resume.aux)
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32337 strings out of 411077
- 645775 string characters out of 2826292
- 1137808 words of memory out of 3000000
- 52461 multiletter control sequences out of 15000+600000
- 407794 words of font info for 117 fonts, out of 8000000 for 9000
+ 32292 strings out of 411077
+ 644369 string characters out of 2826292
+ 1135509 words of memory out of 3000000
+ 52439 multiletter control sequences out of 15000+600000
+ 406122 words of font info for 103 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  114i,12n,118p,546b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume.pdf (4 pages).
+Output written on resume.pdf (3 pages).

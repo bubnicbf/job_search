@@ -749,6 +749,20 @@
   \end{tabular*}%
 }
 
+% Define an entry of cv information
+% Usage: \cveducationentry{<position>}{<title>}{<location>}{<date>}
+\newcommand*{\cveducationentry}[5]{%
+  \vspace{-1.0mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
+    \ifempty{#2#3}
+      {\entrypositionstyle{#5}: \paragraphstylelight{#1} & \entrydatestyle{#4} \\}
+      {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
+      \entrypositionstyle{#5}: \paragraphstylelight{#1} & \entrydatestyle{#4} \\}
+  \end{tabular*}%
+}
+
 % Define an environment for cvsubentry
 \newenvironment{cvsubentries}{%
   \begin{center}

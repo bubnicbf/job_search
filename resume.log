@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  9 FEB 2023 11:31
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  10 FEB 2023 09:15
 entering extended mode
 **./resume.tex
 (resume.tex
@@ -838,8 +838,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 ))
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 73.
-
-No file resume.aux.
+ (resume.aux)
 \openout1 = `resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
@@ -862,6 +861,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
 LaTeX Font Info:    ... okay on input line 73.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
 LaTeX Font Info:    ... okay on input line 73.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -958,10 +958,6 @@ LaTeX Info: Redefining \nameref on input line 73.
 \@outlinefile=\write4
 \openout4 = `resume.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 \headertextwidth=\skip82
 \headerphotowidth=\skip83
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
@@ -1039,9 +1035,9 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32304 strings out of 411077
- 644850 string characters out of 2826292
- 1139509 words of memory out of 3000000
+ 32306 strings out of 411077
+ 644870 string characters out of 2826292
+ 1139665 words of memory out of 3000000
  52447 multiletter control sequences out of 15000+600000
  407753 words of font info for 112 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

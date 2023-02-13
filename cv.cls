@@ -182,17 +182,18 @@
 \newcommand*{\paragraphstylelight}{\fontsize{12pt}{1em}\bodyfontlight\upshape\color{text}}
 
 % For elements of entry
-\newcommand*{\entrytitlestyle}[1]{{\fontsize{13pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
+\newcommand*{\entrycompanystyle}[1]{{\fontsize{13pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
 \newcommand*{\entrypositionstyle}[1]{{\fontsize{11pt}{1em}\bodyfont\scshape\color{graytext} #1}}
-\newcommand*{\entrydatestyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
-\newcommand*{\entrylocationstyle}[1]{{\fontsize{12pt}{1em}\bodyfontlight\slshape\color{highlight} #1}}
+\newcommand*{\entrytoolstyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
+\newcommand*{\entrydatestyle}[1]{{\fontsize{12pt}{1em}\bodyfontlight\slshape\color{highlight} #1}}
 \newcommand*{\descriptionstyle}[1]{{\fontsize{12pt}{1em}\bodyfontlight\upshape\color{text} #1}}
 
-% For elements of subposition
-\newcommand*{\subpospositionstyle}[1]{{\fontsize{12pt}{1em}\bodyfont\scshape\color{graytext} #1}}
-\newcommand*{\subpostitlestyle}[1]{{\fontsize{12pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
-\newcommand*{\subpospromotionstyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{highlight} #1}}
-\newcommand*{\subposdatestyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
+% For elements of subentry
+\newcommand*{\subentrypositionstyle}[1]{{\fontsize{12pt}{1em}\bodyfont\scshape\color{graytext} #1}}
+\newcommand*{\subentrycompanystyle}[1]{{\fontsize{12pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
+\newcommand*{\subentrypromotionstyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{cv-red} #1}}
+\newcommand*{\subentrydatestyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{highlight} #1}}
+\newcommand*{\subentrytoolstyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
 
 
 % For elements of honor
@@ -588,31 +589,46 @@
 }
 
 % Define an entry of cv information
-% Usage: \cventry{<Skills>}{<Position>}{<Company>}{<Dates>}{<Description>}
+% Usage: \cventry{<Skills>}{<Company>}{<Position>}{<Dates>}{<Tools>}{<Description>}
 \newcommand*{\cventry}[5]{%
   \vspace{-2.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
     \ifempty{#2#3}
-      {\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
-      {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
-      \entrypositionstyle{#1} & \entrydatestyle{#4} \\}
+      {\entrypositionstyle{#2} & \entrytoolstyle{#4} \\}
+      {\entrycompanystyle{#1} & \entrydatestyle{#3} \\
+      \entrypositionstyle{#2} & \entrytoolstyle{#4} \\}
     \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}}
   \end{tabular*}%
 }
 
-% Define an entry of cv information
-% Usage: \cvshortentry{<position>}{<title>}{<location>}{<date>}
+% Define a short entry of cv information
+% Usage: \cvshortentry{<Company>}{<Position>}{<Dates>}{<Tools>}
 \newcommand*{\cvshortentry}[4]{%
   \vspace{-1.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
     \ifempty{#2#3}
-      {\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
-      {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
-      \entrypositionstyle{#1} & \entrydatestyle{#4} \\}
+      {\entrypositionstyle{#2} & \entrytoolstyle{#4} \\}
+      {\entrycompanystyle{#1} & \entrydatestyle{#3} \\
+      \entrypositionstyle{#2} & \entrytoolstyle{#4} \\}
+  \end{tabular*}%
+}
+
+% Define a subentry of cv information
+% Usage: \cvsubentry{<title>}{<dates>}{<promotion>}{<Description>}
+\newcommand*{\cvsubentry}[5]{%
+  \vspace{-2.0mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{1.7cm} L{\textwidth - 13.0cm} R{9.0cm} R{1.0cm}}
+    \ifempty{#2#3}
+      {\subentrypromotionstyle{#3} & \subentrypositionstyle{#1} & \subentrydatestyle{#2} & \\}
+      {& & \subentrydatestyle{#2} & \\
+      \subentrypromotionstyle{#4} & \subentrypositionstyle{#1} & \subentrytoolstyle{#3} & \\}
+      & \multicolumn{2}{L{\textwidth - 3.0cm}}{\descriptionstyle{#5}}
   \end{tabular*}%
 }
 
@@ -631,7 +647,7 @@
 % Define a line of cv information(honor, award or something else)
 % Usage: \cvposition{<promotiontag>}{<position>}{<dates>}
 \newcommand*{\cvposition}[3]{%
-  \honorlocationstyle{#3} & \honorpositionstyle{#1} & \entrydatestyle{#2} & \\
+  \honorlocationstyle{#3} & \honorpositionstyle{#1} & \entrytoolstyle{#2} & \\
 }
 
 % Define an environment for cvhonor

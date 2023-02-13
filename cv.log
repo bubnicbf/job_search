@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  9 FEB 2023 11:17
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  13 FEB 2023 04:15
 entering extended mode
 **./cv.tex
 (cv.tex
@@ -838,8 +838,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 ))
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 77.
-
-No file cv.aux.
+ (cv.aux)
 \openout1 = `cv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
@@ -862,6 +861,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
 LaTeX Font Info:    ... okay on input line 77.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
 LaTeX Font Info:    ... okay on input line 77.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -954,12 +954,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 77.
 LaTeX Info: Redefining \pageref on input line 77.
 LaTeX Info: Redefining \nameref on input line 77.
+ (cv.out) (cv.out)
 \@outlinefile=\write4
 \openout4 = `cv.out'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 \headertextwidth=\skip82
 \headerphotowidth=\skip83
@@ -979,149 +976,57 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 11.0pt on input line 82.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
 (Font)              scaled to size 11.0pt on input line 82.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 82.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 82.
 
 Overfull \hbox (1.46pt too wide) in paragraph at lines 82--82
 []$[]$ $[]$$[]$ 
  []
 
-(4page/summary.tex
+(content/exerience/exp4page.tex (content/positions.tex) (content/orgs.tex)
+(content/dates.tex) (content/tools.tex) (content/descriptions.tex)
+(content/bullets.tex)
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 19.0pt on input line 4.
+(Font)              scaled to size 19.0pt on input line 15.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 19.0pt on input line 4.
+(Font)              scaled to size 19.0pt on input line 15.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 13.0pt on input line 15.
+(Font)              scaled to size 13.0pt on input line 43.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 13.0pt on input line 15.
+(Font)              scaled to size 13.0pt on input line 43.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 14.0pt on input line 15.
-
-Overfull \hbox (91.7061pt too wide) in alignment at lines 10--38
-[] [] 
- []
-
-) (4page/experience.tex
-LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 31.
+(Font)              scaled to size 12.0pt on input line 43.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <12> not avai
 lable
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 31.
+t line 43.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 31.
+(Font)              scaled to size 12.0pt on input line 43.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 11.0pt on input line 31.
+(Font)              scaled to size 11.0pt on input line 43.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <11> not avai
 lable
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 31.
+t line 43.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 11.0pt on input line 31.
+(Font)              scaled to size 11.0pt on input line 43.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 31.
+(Font)              scaled to size 9.0pt on input line 43.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 74.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 62.
+(Font)              scaled to size 12.0pt on input line 74.
  [1
 
-]) (4page/volunteer.tex
-LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 19.0pt on input line 4.
- [2]
-Overfull \hbox (2.92001pt too wide) in paragraph at lines 20--55
-   [] 
- []
-
-
-Overfull \hbox (2.92001pt too wide) in paragraph at lines 20--55
-   [] 
- []
-
-
-Overfull \hbox (2.92001pt too wide) in paragraph at lines 20--55
-   [] 
- []
-
-) (4page/awards.tex
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 11.0pt on input line 14.
-) (4page/talks.tex
-Overfull \hbox (2.92001pt too wide) in paragraph at lines 22--68
-   [] 
- []
-
-
-Overfull \hbox (2.92001pt too wide) in paragraph at lines 22--68
-   [] 
- []
-
-
-Overfull \hbox (2.92001pt too wide) in paragraph at lines 22--68
-   [] 
- []
-
-
-Overfull \hbox (2.92001pt too wide) in paragraph at lines 22--68
-   [] 
- []
-
-) (4page/writing.tex [3]
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 22.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 13.00139pt on input line 22.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.10092pt on input line 22.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.50069pt on input line 22.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 12.99861pt on input line 22.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.09898pt on input line 22.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.4993pt on input line 22.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 9.09996pt on input line 22.
-
-Overfull \hbox (2.3025pt too wide) in paragraph at lines 46--46
- []\TU/SourceSansPro(2)/m/it/12 shinyapps.io[]|
- []
-
-) (4page/education.tex
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 14.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 11.00117pt on input line 14.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.70078pt on input line 14.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.50058pt on input line 14.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 10.99883pt on input line 14.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.69914pt on input line 14.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.4994pt on input line 14.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 7.69997pt on input line 14.
-) [4] (cv.aux)
-
-Package rerunfilecheck Warning: File `cv.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `cv.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+] [2]) [3] (cv.aux)
+Package rerunfilecheck Info: File `cv.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32355 strings out of 411077
- 646629 string characters out of 2826292
- 1137641 words of memory out of 3000000
- 52475 multiletter control sequences out of 15000+600000
- 409459 words of font info for 130 fonts, out of 8000000 for 9000
+ 32398 strings out of 411077
+ 645287 string characters out of 2826292
+ 1131652 words of memory out of 3000000
+ 52537 multiletter control sequences out of 15000+600000
+ 406106 words of font info for 101 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 114i,12n,118p,542b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 114i,12n,118p,542b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on cv.pdf (4 pages).
+Output written on cv.pdf (3 pages).

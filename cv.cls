@@ -191,7 +191,7 @@
 % For elements of subentry
 \newcommand*{\subentrycompanystyle}[1]{{\fontsize{12pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
 \newcommand*{\subentrypositionstyle}[1]{{\fontsize{11pt}{1em}\bodyfont\scshape\color{graytext} #1}}
-\newcommand*{\subentrypromotionstyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{cv-red} #1}}
+\newcommand*{\subentrypromotionstyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{highlight} #1}}
 \newcommand*{\subentrydatestyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{highlight} #1}}
 \newcommand*{\subentrytoolstyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
 

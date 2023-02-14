@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  14 FEB 2023 11:45
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  14 FEB 2023 12:18
 entering extended mode
 **./cv.tex
 (cv.tex
@@ -958,6 +958,10 @@ LaTeX Info: Redefining \nameref on input line 71.
 \@outlinefile=\write4
 \openout4 = `cv.out'.
 
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 \headertextwidth=\skip82
 \headerphotowidth=\skip83
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
@@ -1021,19 +1025,19 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
 (content/awards/awa4page.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 11.0pt on input line 14.
-) (content/publications/pub4page.tex
+) (content/talks/tal4page.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 7.665pt on input line 18.
- [3]) [4]
-(cv.aux)
+(Font)              scaled to size 7.665pt on input line 19.
+ [3])
+(content/publications/pub4page.tex) [4] (cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32466 strings out of 411077
- 646784 string characters out of 2826292
- 1133173 words of memory out of 3000000
- 52582 multiletter control sequences out of 15000+600000
+ 32490 strings out of 411077
+ 647064 string characters out of 2826292
+ 1133017 words of memory out of 3000000
+ 52602 multiletter control sequences out of 15000+600000
  406098 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  114i,12n,118p,542b,434s stack positions out of 5000i,500n,10000p,200000b,80000s

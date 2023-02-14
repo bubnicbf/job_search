@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  14 FEB 2023 07:39
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  14 FEB 2023 11:45
 entering extended mode
 **./cv.tex
 (cv.tex
@@ -983,7 +983,7 @@ Overfull \hbox (1.46pt too wide) in paragraph at lines 76--76
 
 (content/skills.tex) (content/positions.tex) (content/orgs.tex)
 (content/dates.tex) (content/tools.tex) (content/descriptions.tex)
-(content/accomplishments.tex) (content/honors.tex)
+(content/accomplishments.tex) (content/honors.tex) (content/presentations.tex)
 (content/summary/sum4page.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 19.0pt on input line 4.
@@ -1021,17 +1021,21 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
 (content/awards/awa4page.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 11.0pt on input line 14.
-) [3] (cv.aux)
+) (content/publications/pub4page.tex
+LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
+(Font)              scaled to size 7.665pt on input line 18.
+ [3]) [4]
+(cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32423 strings out of 411077
- 646080 string characters out of 2826292
- 1132983 words of memory out of 3000000
- 52547 multiletter control sequences out of 15000+600000
- 406090 words of font info for 99 fonts, out of 8000000 for 9000
+ 32466 strings out of 411077
+ 646784 string characters out of 2826292
+ 1133173 words of memory out of 3000000
+ 52582 multiletter control sequences out of 15000+600000
+ 406098 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  114i,12n,118p,542b,434s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on cv.pdf (3 pages).
+Output written on cv.pdf (4 pages).

@@ -183,6 +183,7 @@
 
 % For elements of entry
 \newcommand*{\entrycompanystyle}[1]{{\fontsize{13pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
+\newcommand*{\entrysuperstyle}[1]{{\textsuperscript{#1}}}
 \newcommand*{\entrypositionstyle}[1]{{\fontsize{11pt}{1em}\bodyfont\scshape\color{graytext} #1}}
 \newcommand*{\entrytoolstyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
 \newcommand*{\entrydatestyle}[1]{{\fontsize{12pt}{1em}\bodyfontlight\slshape\color{highlight} #1}}
@@ -666,6 +667,28 @@
 % Usage: \cvhonor{<honor>}{<description>}{<organization>}{<date>}
 \newcommand*{\cvhonor}[4]{%
   \honordatestyle{#4} & \honorpositionstyle{#1}, \honortitlestyle{#2} & \honorlocationstyle{#3} \\
+}
+
+% Define an environment for cvpublications
+\newenvironment{cvpublications}{%
+  \vspace{\acvSectionContentTopSkip}
+  \begin{center}
+}{%
+  \end{center}
+}
+
+% Define an entry of cv information
+% Usage: \cvpublication{<title>}{<publisher>}{<date>}{<description>}{<footnote>}
+\newcommand*{\cvpublication}[5]{%
+  \vspace{-2.0mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 2.5cm} R{2.5cm}}
+    \ifempty{#2#3}
+      {\entrytoolstyle{#4} & \entrypositionstyle{#2} \\}
+      {\entrycompanystyle{#1} \entrysuperstyle{#5} & \entrydatestyle{#3} \\
+      \entrytoolstyle{#4} & \entrypositionstyle{#2} \\}
+  \end{tabular*}%
 }
 
 % Define an environment for cvskill

@@ -189,8 +189,8 @@
 \newcommand*{\descriptionstyle}[1]{{\fontsize{12pt}{1em}\bodyfontlight\upshape\color{text} #1}}
 
 % For elements of subentry
-\newcommand*{\subentrypositionstyle}[1]{{\fontsize{12pt}{1em}\bodyfont\scshape\color{graytext} #1}}
 \newcommand*{\subentrycompanystyle}[1]{{\fontsize{12pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
+\newcommand*{\subentrypositionstyle}[1]{{\fontsize{11pt}{1em}\bodyfont\scshape\color{graytext} #1}}
 \newcommand*{\subentrypromotionstyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{cv-red} #1}}
 \newcommand*{\subentrydatestyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{highlight} #1}}
 \newcommand*{\subentrytoolstyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
@@ -594,7 +594,7 @@
   \vspace{-2.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
-  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 13.0cm} R{10.0cm}}
     \ifempty{#2#3}
       {\entrypositionstyle{#2} & \entrytoolstyle{#4} \\}
       {\entrycompanystyle{#1} & \entrydatestyle{#3} \\
@@ -690,7 +690,7 @@
 \newenvironment{cvitems}{%
   \vspace{4.0mm}
   \begin{justify}
-  \begin{itemize}[leftmargin=10ex, nosep, noitemsep]
+  \begin{itemize}[leftmargin=3ex, nosep, noitemsep]
     \setlength{\parskip}{0pt}
     \renewcommand{\labelitemi}{\bullet}
 }{%

@@ -631,23 +631,21 @@
   \end{tabular*}%
 }
 
-% Define a subentry of cv information
-% Usage: \cvsubentry{<title>}{<dates>}{<promotion>}{<Description>}
-\newcommand*{\cvsubentry}[5]{%
+% Define a sub header (just promotion tag, company and dates) of cv information
+% Usage: \cvsubheader{<title>}{<dates>}{<promotion>}
+\newcommand*{\cvsubheader}[3]{%
   \vspace{-2.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{1.7cm} L{\textwidth - 13.0cm} R{9.0cm} R{1.0cm}}
     \ifempty{#2#3}
       {\subentrypromotionstyle{#3} & \subentrypositionstyle{#1} & \subentrydatestyle{#2} & \\}
-      {& & \subentrydatestyle{#2} & \\
-      \subentrypromotionstyle{#4} & \subentrypositionstyle{#1} & \subentrytoolstyle{#3} & \\}
-      & \multicolumn{2}{L{\textwidth - 3.0cm}}{\descriptionstyle{#5}}
+      {\subentrypromotionstyle{#3} & \subentrypositionstyle{#1} & \subentrydatestyle{#2} & \\}
   \end{tabular*}%
 }
 
 % Define a subentry of cv information
-% Usage: \cvsubentry{<title>}{<dates>}{<promotion>}{<Description>}
+% Usage: \cvsubentry{<title>}{<dates>}{<promotion>}{<tools>}{<description>}
 \newcommand*{\cvsubentry}[5]{%
   \vspace{-2.0mm}
   \setlength\tabcolsep{0pt}

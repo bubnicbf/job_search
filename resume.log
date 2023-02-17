@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  17 FEB 2023 12:02
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  17 FEB 2023 12:21
 entering extended mode
 **./resume.tex
 (resume.tex
@@ -958,10 +958,6 @@ LaTeX Info: Redefining \nameref on input line 71.
 \@outlinefile=\write4
 \openout4 = `resume.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 \headertextwidth=\skip82
 \headerphotowidth=\skip83
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
@@ -1019,20 +1015,17 @@ lable
 t line 23.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
 (Font)              scaled to size 11.0pt on input line 23.
- [1
+) (content/volunteer/vol4page.tex [1
 
-]) (content/volunteer/vol4page.tex)
+])
 (content/awards/awa4page.tex
-LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 19.0pt on input line 4.
- [2]
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 11.0pt on input line 14.
 ) (content/talks/tal4page.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 7.665pt on input line 19.
 )
-(content/publications/pub4page.tex) (content/education/edu4page.tex
+(content/publications/pub4page.tex [2]) (content/education/edu4page.tex
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 14.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
 (Font)              scaled to size 11.00117pt on input line 14.
@@ -1048,18 +1041,18 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 5.4994pt on input line 14.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 7.69997pt on input line 14.
-) [3]
-(resume.aux)
+)
+[3] (resume.aux)
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  32534 strings out of 411077
- 648448 string characters out of 2826292
- 1136309 words of memory out of 3000000
+ 648433 string characters out of 2826292
+ 1138629 words of memory out of 3000000
  52631 multiletter control sequences out of 15000+600000
  407763 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 114i,12n,118p,546b,434s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 114i,12n,118p,546b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume.pdf (3 pages).

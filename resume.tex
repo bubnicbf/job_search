@@ -1,24 +1,11 @@
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
-% Awesome CV LaTeX Template for CV/Resume
-%
-% This template has been downloaded from:
-% https://github.com/posquit0/Awesome-CV
-%
-% Author:
-% Claud D. Park <posquit0.bj@gmail.com>
-% http://www.posquit0.com
-%
-% Template license:
-% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
-%
-
 
 %-------------------------------------------------------------------------------
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
 % A4 paper size by default, use 'letterpaper' for US letter
-\documentclass[11pt, letterpaper]{awesome-cv}
+\documentclass[11pt, letterpaper]{cv}
 
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
@@ -27,20 +14,27 @@
 \fontdir[fonts/]
 
 % Color for highlights
-% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
-%                 awesome-nephritis, awesome-concrete, awesome-darknight
-\colorlet{awesome}{awesome-red}
+% Predefined Colors
+	% cv-emerald
+	% cv-skyblue
+	% cv-red
+	% cv-pink
+	% cv-orange
+	% cv-nephritis
+	% cv-concrete
+	% cv-darknight
+\colorlet{highlight}{cv-emerald}
 
 % Colors for text
 % Uncomment for printing
-% \definecolor{awesome}{HTML}{000000}    % {CA63A8}
-% \definecolor{darktext}{HTML}{000000}    % {414141}
-% \definecolor{text}{HTML}{000000}           % {333333}
-% \definecolor{graytext}{HTML}{000000}    % {5D5D5D}
-% \definecolor{lighttext}{HTML}{000000}    % {999999}
+% \definecolor{highlight}{HTML}{000000}
+% \definecolor{darktext}{HTML}{000000}
+% \definecolor{text}{HTML}{000000}
+% \definecolor{graytext}{HTML}{000000}
+% \definecolor{lighttext}{HTML}{000000}
 
 
-% Set false if you don't want to highlight section with awesome color
+% Set false if you don't want to highlight section with highlight color
 \setbool{acvSectionColorHighlight}{true}
 
 % If you would like to change the social information separator from a pipe (|) to something else
@@ -69,6 +63,10 @@
 % \reddit{reddit-id}
 % \extrainfo{extra informations}
 
+% \quote{``I want to use my 15+ years experience to reimagine healthcare by creating, assembling, and improving our business relationships through data science.  I believe that when I inspire people to do the things that inspire them, we can improve the relationship between patient and care team together."}
+
+
+
 %-------------------------------------------------------------------------------
 \begin{document}
 
@@ -79,17 +77,35 @@
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
 \makecvfooter
-  {}
-  {}
   {\today}
+  {Ben Bubnick~~~·~~~Resume}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	INIT
+%-------------------------------------------------------------------------------
+\input{content/skills.tex}
+\input{content/positions.tex}
+\input{content/orgs.tex}
+\input{content/dates.tex}
+\input{content/tools.tex}
+\input{content/descriptions.tex}
+\input{content/accomplishments.tex}
+\input{content/honors.tex}
+\input{content/presentations.tex}
 
 
 %-------------------------------------------------------------------------------
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
-\input{resume/summary.tex}
-\input{resume/experience.tex} 
-\input{resume/education.tex}
+\input{content/summary/sum4page.tex}
+\input{content/exerience/exp1page.tex}
+\input{content/volunteer/vol4page.tex}
+\input{content/awards/awa4page.tex}
+\input{content/talks/tal4page.tex}
+\input{content/publications/pub4page.tex}
+\input{content/education/edu4page.tex}
 %-------------------------------------------------------------------------------
 \end{document}

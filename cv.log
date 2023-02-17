@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  17 FEB 2023 10:02
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  17 FEB 2023 10:10
 entering extended mode
 **./cv.tex
 (cv.tex
@@ -1017,15 +1017,15 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
 (Font)              scaled to size 11.0pt on input line 27.
  [1
 
-] [2]) (content/volunteer/vol4page.tex)
+]) (content/volunteer/vol4page.tex [2])
 (content/awards/awa4page.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 11.0pt on input line 14.
 ) (content/talks/tal4page.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 7.665pt on input line 19.
- [3])
-(content/publications/pub4page.tex) (content/education/edu4page.tex
+)
+(content/publications/pub4page.tex [3]) (content/education/edu4page.tex
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 14.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
 (Font)              scaled to size 11.00117pt on input line 14.
@@ -1041,8 +1041,8 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 5.4994pt on input line 14.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 7.69997pt on input line 14.
-) [4]
-(cv.aux)
+)
+[4] (cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 

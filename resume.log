@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  17 FEB 2023 11:55
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  17 FEB 2023 12:02
 entering extended mode
 **./resume.tex
 (resume.tex
@@ -958,6 +958,10 @@ LaTeX Info: Redefining \nameref on input line 71.
 \@outlinefile=\write4
 \openout4 = `resume.out'.
 
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 \headertextwidth=\skip82
 \headerphotowidth=\skip83
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
@@ -1050,10 +1054,10 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32533 strings out of 411077
- 648435 string characters out of 2826292
- 1136339 words of memory out of 3000000
- 52630 multiletter control sequences out of 15000+600000
+ 32534 strings out of 411077
+ 648448 string characters out of 2826292
+ 1136309 words of memory out of 3000000
+ 52631 multiletter control sequences out of 15000+600000
  407763 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  114i,12n,118p,546b,434s stack positions out of 5000i,500n,10000p,200000b,80000s

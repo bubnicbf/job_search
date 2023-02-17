@@ -618,6 +618,34 @@
   \end{tabular*}%
 }
 
+% Define a short header (just company and dates) of cv information
+% Usage: \cvshortheader{<Company>}{<Dates>}
+\newcommand*{\cvshortheader}[2]{%
+  \vspace{-1.0mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
+    \ifempty{#1#2}
+      {\entrycompanystyle{#1} & \entrydatestyle{#2} \\}
+      {\entrycompanystyle{#1} & \entrydatestyle{#2} \\}
+  \end{tabular*}%
+}
+
+% Define a subentry of cv information
+% Usage: \cvsubentry{<title>}{<dates>}{<promotion>}{<Description>}
+\newcommand*{\cvsubentry}[5]{%
+  \vspace{-2.0mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{1.7cm} L{\textwidth - 13.0cm} R{9.0cm} R{1.0cm}}
+    \ifempty{#2#3}
+      {\subentrypromotionstyle{#3} & \subentrypositionstyle{#1} & \subentrydatestyle{#2} & \\}
+      {& & \subentrydatestyle{#2} & \\
+      \subentrypromotionstyle{#4} & \subentrypositionstyle{#1} & \subentrytoolstyle{#3} & \\}
+      & \multicolumn{2}{L{\textwidth - 3.0cm}}{\descriptionstyle{#5}}
+  \end{tabular*}%
+}
+
 % Define a subentry of cv information
 % Usage: \cvsubentry{<title>}{<dates>}{<promotion>}{<Description>}
 \newcommand*{\cvsubentry}[5]{%

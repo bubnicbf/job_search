@@ -605,16 +605,16 @@
 }
 
 % Define a short entry of cv information
-% Usage: \cvshortentry{<Company>}{<Position>}{<Dates>}{<Tools>}
-\newcommand*{\cvshortentry}[4]{%
+% Usage: \cvshortentry{<Company>}{<Dates>}{<Tools>}
+\newcommand*{\cvshortentry}[3]{%
   \vspace{-1.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
     \ifempty{#2#3}
-      {\entrypositionstyle{#2} & \entrytoolstyle{#4} \\}
-      {\entrycompanystyle{#1} & \entrydatestyle{#3} \\
-      \entrypositionstyle{#2} & \entrytoolstyle{#4} \\}
+      {\entrypositionstyle{#1} & \entrytoolstyle{#2} \\}
+      {\entrycompanystyle{#1} & \entrydatestyle{#2} \\}
+    \multicolumn{2}{R{\textwidth}}{\entrytoolstyle{#3}}
   \end{tabular*}%
 }
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  19 FEB 2023 02:39
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  6 MAR 2023 16:26
 entering extended mode
 **./abstract.tex
 (abstract.tex
@@ -838,8 +838,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 ))
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 71.
-
-No file abstract.aux.
+ (abstract.aux)
 \openout1 = `abstract.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
@@ -862,6 +861,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
 LaTeX Font Info:    ... okay on input line 71.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 71.
 LaTeX Font Info:    ... okay on input line 71.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -954,12 +954,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 71.
 LaTeX Info: Redefining \pageref on input line 71.
 LaTeX Info: Redefining \nameref on input line 71.
+ (abstract.out) (abstract.out)
 \@outlinefile=\write4
 \openout4 = `abstract.out'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 \headertextwidth=\skip82
 \headerphotowidth=\skip83
@@ -1025,19 +1022,13 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 
 ]
 (abstract.aux)
-
-Package rerunfilecheck Warning: File `abstract.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `abstract.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `abstract.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32491 strings out of 411077
- 646801 string characters out of 2826292
- 1139480 words of memory out of 3000000
+ 32497 strings out of 411077
+ 646873 string characters out of 2826292
+ 1139637 words of memory out of 3000000
  52621 multiletter control sequences out of 15000+600000
  406090 words of font info for 99 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

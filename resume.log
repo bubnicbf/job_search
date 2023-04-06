@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  16 MAR 2023 04:04
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  6 APR 2023 16:45
 entering extended mode
 **./resume.tex
 (resume.tex
@@ -961,24 +961,31 @@ LaTeX Info: Redefining \nameref on input line 71.
 \headertextwidth=\skip82
 \headerphotowidth=\skip83
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.95116pt on input line 76.
+(Font)              scaled to size 10.95116pt on input line 75.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.6658pt on input line 76.
+(Font)              scaled to size 7.6658pt on input line 75.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.47559pt on input line 76.
+(Font)              scaled to size 5.47559pt on input line 75.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 76.
+(Font)              scaled to size 10.94882pt on input line 75.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.66417pt on input line 76.
+(Font)              scaled to size 7.66417pt on input line 75.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.47441pt on input line 76.
+(Font)              scaled to size 5.47441pt on input line 75.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 11.0pt on input line 76.
+(Font)              scaled to size 11.0pt on input line 75.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 11.0pt on input line 76.
+(Font)              scaled to size 11.0pt on input line 75.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 75.
 
-Overfull \hbox (1.46pt too wide) in paragraph at lines 76--76
-[]$[]$ $[]$$[]$ 
+Overfull \hbox (2.92001pt too wide) in paragraph at lines 75--76
+[]$[]$  $[]$$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+
  []
 
 (content/skills.tex) (content/positions.tex) (content/orgs.tex)
@@ -1026,11 +1033,11 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32503 strings out of 411077
- 646980 string characters out of 2826292
- 1139630 words of memory out of 3000000
- 52623 multiletter control sequences out of 15000+600000
- 406090 words of font info for 99 fonts, out of 8000000 for 9000
+ 32505 strings out of 411077
+ 647082 string characters out of 2826292
+ 1138667 words of memory out of 3000000
+ 52625 multiletter control sequences out of 15000+600000
+ 406098 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  114i,12n,118p,546b,434s stack positions out of 5000i,500n,10000p,200000b,80000s
 

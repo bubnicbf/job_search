@@ -764,13 +764,15 @@
 % Define an environment for cvcenterlist
 \newenvironment{cvcenterlist}{%
   \vspace{2mm}
+  \begin{adjustwidth}{5ex}{10ex} % Add this line to set left and right margins
   \begin{justify}
   \paragraphstyle
-  \begin{itemize}[leftmargin=50ex, nosep, noitemsep]
+  \begin{itemize}
     \setlength{\parskip}{0pt}
     \renewcommand{\labelitemi}{\bullet}
 }{%
   \end{itemize}
   \end{justify}
+  \end{adjustwidth} % Add this line to close the adjustwidth environment
   \vspace{-2.0mm}
 }

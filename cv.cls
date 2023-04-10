@@ -702,14 +702,17 @@
 \newenvironment{cvhonors}{%
   \vspace{\acvSectionContentTopSkip}
   \vspace{-2mm}
-  \begin{center}
-    \setlength\tabcolsep{0pt}
-    \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{2.0cm} L{\textwidth - 5.5cm} R{3.0cm}}
+  \begin{adjustwidth}{-1cm}{}
+    \begin{center}
+      \setlength\tabcolsep{0pt}
+      \setlength{\extrarowheight}{0pt}
+      \begin{tabular*}{0.9\textwidth}{@{\extracolsep{\fill}} C{2.0cm} L{\textwidth - 5.5cm} R{3.0cm}}
 }{%
-    \end{tabular*}
-  \end{center}
+      \end{tabular*}
+    \end{center}
+  \end{adjustwidth}
 }
+
 % Define a line of cv information(honor, award or something else)
 % Usage: \cvhonor{<honor>}{<description>}{<organization>}{<date>}
 \newcommand*{\cvhonor}[4]{%
@@ -742,14 +745,17 @@
 \newenvironment{cvdegrees}{%
   \vspace{\acvSectionContentTopSkip}
   \vspace{-2mm}
-  \begin{center}
-    \setlength\tabcolsep{0pt}
-    \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{2.0cm} L{\textwidth - 8.5cm} R{4.5cm}}
+  \begin{adjustwidth}{-1cm}{}
+    \begin{center}
+      \setlength\tabcolsep{0pt}
+      \setlength{\extrarowheight}{0pt}
+      \begin{tabular*}{0.9\textwidth}{@{\extracolsep{\fill}} C{2.0cm} L{\textwidth - 7.0cm} R{4.5cm}}
 }{%
-    \end{tabular*}
-  \end{center}
+      \end{tabular*}
+    \end{center}
+  \end{adjustwidth}
 }
+
 % Define a line of cv information(honor, award or something else)
 % Usage: \cvdegree{<degree>}{<subject>}{<organization>}{<date>}
 \newcommand*{\cvdegree}[4]{%

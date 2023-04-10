@@ -647,8 +647,8 @@
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
     \ifempty{#1#2}
-      {\entrycompanystyle{#1} & \entrydatestyle{#2} \\}
-      {\entrycompanystyle{#1} & \entrydatestyle{#2} \\}
+      {\entrycompanystyle{#1} & \entrylocationstyle{#2} \\}
+      {\entrycompanystyle{#1} & \entrylocationstyle{#2} \\}
   \end{tabular*}%
 }
 
@@ -666,17 +666,16 @@
 }
 
 % Define a subentry of cv information
-% Usage: \cvsubentry{<title>}{<dates>}{<promotion>}{<locations>}{<description>}
-\newcommand*{\cvsubentry}[5]{%
+% Usage: \cvsubentry{<title>}{<dates>}{<promotion>}{<description>}
+\newcommand*{\cvsubentry}[4]{%
   \vspace{-2.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{1.7cm} L{\textwidth - 13.0cm} R{9.0cm} R{1.0cm}}
     \ifempty{#2#3}
       {\subentrypromotionstyle{#3} & \subentrypositionstyle{#1} & \subentrydatestyle{#2} & \\}
-      {& & \subentrydatestyle{#2} & \\
-      \subentrypromotionstyle{#4} & \subentrypositionstyle{#1} & \subentrylocationstyle{#3} & \\}
-      & \multicolumn{2}{L{\textwidth - 3.0cm}}{\descriptionstyle{#5}}
+      {\subentrypromotionstyle{#3} & \subentrypositionstyle{#1} & \subentrydatestyle{#2} & \\}
+      & \multicolumn{2}{L{\textwidth - 3.0cm}}{\descriptionstyle{#4}}
   \end{tabular*}%
 }
 

@@ -42,7 +42,7 @@
 \RequirePackage{ifxetex}
 % Needed to use \if-\then-\else statement
 \RequirePackage{xifthen}
-% Needed to use a toolbox of programming tools
+% Needed to use a toolbox of programming locations
 \RequirePackage{etoolbox}
 % Needed to change line spacing in specific environment
 \RequirePackage{setspace}
@@ -185,7 +185,7 @@
 \newcommand*{\entrycompanystyle}[1]{{\fontsize{13pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
 \newcommand*{\entrysuperstyle}[1]{{\textsuperscript{#1}}}
 \newcommand*{\entrypositionstyle}[1]{{\fontsize{11pt}{1em}\bodyfont\scshape\color{graytext} #1}}
-\newcommand*{\entrytoolstyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
+\newcommand*{\entrylocationstyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
 \newcommand*{\entrydatestyle}[1]{{\fontsize{12pt}{1em}\bodyfontlight\slshape\color{highlight} #1}}
 \newcommand*{\descriptionstyle}[1]{{\fontsize{12pt}{1em}\bodyfontlight\upshape\color{text} #1}}
 
@@ -194,7 +194,7 @@
 \newcommand*{\subentrypositionstyle}[1]{{\fontsize{11pt}{1em}\bodyfont\scshape\color{graytext} #1}}
 \newcommand*{\subentrypromotionstyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{highlight} #1}}
 \newcommand*{\subentrydatestyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{highlight} #1}}
-\newcommand*{\subentrytoolstyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
+\newcommand*{\subentrylocationstyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
 
 
 % For elements of honor
@@ -592,9 +592,9 @@
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 13.0cm} R{10.0cm}}
     \ifempty{#2#3}
-      {\entrypositionstyle{#2} & \entrytoolstyle{#4} \\}
+      {\entrypositionstyle{#2} & \entrylocationstyle{#4} \\}
       {\entrycompanystyle{#1} & \entrydatestyle{#3} \\
-      \entrypositionstyle{#2} & \entrytoolstyle{#4} \\}
+      \entrypositionstyle{#2} & \entrylocationstyle{#4} \\}
     \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}}
   \end{tabular*}%
 }
@@ -607,9 +607,9 @@
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
     \ifempty{#2#3}
-      {\entrypositionstyle{#1} & \entrytoolstyle{#2} \\}
+      {\entrypositionstyle{#1} & \entrylocationstyle{#2} \\}
       {\entrycompanystyle{#1} & \entrydatestyle{#2} \\}
-    \multicolumn{2}{R{\textwidth}}{\entrytoolstyle{#3}}
+    \multicolumn{2}{R{\textwidth}}{\entrylocationstyle{#3}}
   \end{tabular*}%
 }
 
@@ -640,7 +640,7 @@
 }
 
 % Define a subentry of cv information
-% Usage: \cvsubentry{<title>}{<dates>}{<promotion>}{<tools>}{<description>}
+% Usage: \cvsubentry{<title>}{<dates>}{<promotion>}{<locations>}{<description>}
 \newcommand*{\cvsubentry}[5]{%
   \vspace{-2.0mm}
   \setlength\tabcolsep{0pt}
@@ -649,7 +649,7 @@
     \ifempty{#2#3}
       {\subentrypromotionstyle{#3} & \subentrypositionstyle{#1} & \subentrydatestyle{#2} & \\}
       {& & \subentrydatestyle{#2} & \\
-      \subentrypromotionstyle{#4} & \subentrypositionstyle{#1} & \subentrytoolstyle{#3} & \\}
+      \subentrypromotionstyle{#4} & \subentrypositionstyle{#1} & \subentrylocationstyle{#3} & \\}
       & \multicolumn{2}{L{\textwidth - 3.0cm}}{\descriptionstyle{#5}}
   \end{tabular*}%
 }
@@ -669,7 +669,7 @@
 % Define a line of cv information(honor, award or something else)
 % Usage: \cvposition{<promotiontag>}{<position>}{<dates>}
 \newcommand*{\cvposition}[3]{%
-  \honorlocationstyle{#3} & \honorpositionstyle{#1} & \entrytoolstyle{#2} & \\
+  \honorlocationstyle{#3} & \honorpositionstyle{#1} & \entrylocationstyle{#2} & \\
 }
 
 % Define an environment for cvhonor
@@ -706,9 +706,9 @@
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 2.5cm} R{2.5cm}}
     \ifempty{#2#3}
-      {\entrytoolstyle{#4} & \entrypositionstyle{#2} \\}
+      {\entrylocationstyle{#4} & \entrypositionstyle{#2} \\}
       {\entrycompanystyle{#1} \entrysuperstyle{#5} & \entrydatestyle{#3} \\
-      \entrytoolstyle{#4} & \entrypositionstyle{#2} \\}
+      \entrylocationstyle{#4} & \entrypositionstyle{#2} \\}
   \end{tabular*}%
 }
 

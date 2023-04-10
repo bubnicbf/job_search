@@ -599,6 +599,32 @@
   \end{tabular*}%
 }
 
+% Define an entry of cv information in paragraph form for other experience
+% Usage: \cvparaentry{<Skills>}{<Company>}{<Position>}{<Dates>}{<Tools>}{<Description>}
+\newcommand*{\cvparaentry}[5]{%
+  \vspace{-2.0mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \paragraphstylelight
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth}}
+    \MakeUppercase{#1}, {#3}, \entrydatestyle{#4}, \textbf{#2}, {#5} \\
+  \end{tabular*}%
+  \vspace{2.0mm}
+}
+
+
+
+% % Define a paragraph for CV
+% \newenvironment{cvparagraph}{%
+%   \vspace{\acvSectionContentTopSkip}
+%   \vspace{-2mm}
+%   \paragraphstylelight
+% }{%
+%   \par
+%   \vspace{-2mm}
+% }
+
+
 % Define a short entry of cv information
 % Usage: \cvshortentry{<Company>}{<Dates>}{<Tools>}
 \newcommand*{\cvshortentry}[3]{%

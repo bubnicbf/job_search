@@ -42,7 +42,7 @@
 \RequirePackage{ifxetex}
 % Needed to use \if-\then-\else statement
 \RequirePackage{xifthen}
-% Needed to use a toolbox of programming tools
+% Needed to use a toolbox of programming locations
 \RequirePackage{etoolbox}
 % Needed to change line spacing in specific environment
 \RequirePackage{setspace}
@@ -175,8 +175,8 @@
 \newcommand*{\headersocialstyle}[1]{{\fontsize{10pt}{1em}\headerfont\color{text} #1}}
 \newcommand*{\headerquotestyle}[1]{{\fontsize{12pt}{1em}\bodyfont\itshape\color{darktext} #1}}
 \newcommand*{\footerstyle}[1]{{\fontsize{11pt}{1em}\footerfont\scshape\color{lighttext} #1}}
-\newcommand*{\sectionstyle}[1]{{\fontsize{19pt}{1em}\bodyfont\bfseries\color{text}\@sectioncolor #1}}
-\newcommand*{\subsectionstyle}[1]{{\fontsize{15pt}{1em}\bodyfont\scshape\textcolor{text}{#1}}}
+\newcommand*{\sectionstyle}[1]{{\fontsize{16pt}{1em}\bodyfont\bfseries\color{text}\@sectioncolor #1}}
+\newcommand*{\subsectionstyle}[1]{{\fontsize{14pt}{1em}\bodyfont\scshape\textcolor{text}{#1}}}
 \newcommand*{\paragraphstyle}{\fontsize{12pt}{1em}\bodyfont\upshape\color{text}}
 \newcommand*{\smparagraphstyle}{\fontsize{9pt}{1em}\bodyfont\upshape\color{text}}
 \newcommand*{\paragraphstylelight}{\fontsize{12pt}{1em}\bodyfontlight\upshape\color{text}}
@@ -185,7 +185,7 @@
 \newcommand*{\entrycompanystyle}[1]{{\fontsize{13pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
 \newcommand*{\entrysuperstyle}[1]{{\textsuperscript{#1}}}
 \newcommand*{\entrypositionstyle}[1]{{\fontsize{11pt}{1em}\bodyfont\scshape\color{graytext} #1}}
-\newcommand*{\entrytoolstyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
+\newcommand*{\entrylocationstyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
 \newcommand*{\entrydatestyle}[1]{{\fontsize{12pt}{1em}\bodyfontlight\slshape\color{highlight} #1}}
 \newcommand*{\descriptionstyle}[1]{{\fontsize{12pt}{1em}\bodyfontlight\upshape\color{text} #1}}
 
@@ -194,7 +194,7 @@
 \newcommand*{\subentrypositionstyle}[1]{{\fontsize{11pt}{1em}\bodyfont\scshape\color{graytext} #1}}
 \newcommand*{\subentrypromotionstyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{highlight} #1}}
 \newcommand*{\subentrydatestyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{highlight} #1}}
-\newcommand*{\subentrytoolstyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
+\newcommand*{\subentrylocationstyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
 
 
 % For elements of honor
@@ -430,21 +430,16 @@
   \begin{minipage}[c]{\headerphotowidth}%
     \ifthenelse{\equal{\@photoalign}{left}}{\raggedright\drawphoto}{}
   \end{minipage}
+  \newcommand*{\phoneaddresssep}{\hspace{0.5em}\textnormal{|}\hspace{0.5em}}
   \begin{minipage}[c]{\headertextwidth}
     \ifthenelse{\equal{#1}{L}}{\raggedright}{\ifthenelse{\equal{#1}{R}}{\raggedleft}{\centering}}
     \headerfirstnamestyle{\@firstname}\headerlastnamestyle{{}\acvHeaderNameDelim\@lastname}%
     \\[\acvHeaderAfterNameSkip]%
     \ifthenelse{\isundefined{\@position}}{}{\headerpositionstyle{\@position\\[\acvHeaderAfterPositionSkip]}}%
-    \ifthenelse{\isundefined{\@address}}{}{\headeraddressstyle{\@address\\[\acvHeaderAfterAddressSkip]}}%
+    \ifthenelse{\isundefined{\@address}}{}{\headeraddressstyle{\@address\phoneaddresssep\@mobile\\[\acvHeaderAfterAddressSkip]}}%
     \headersocialstyle{%
       \newbool{isstart}%
       \setbool{isstart}{true}%
-      \ifthenelse{\isundefined{\@mobile}}%
-        {}%
-        {%
-          \faMobile\acvHeaderIconSep\@mobile%
-          \setbool{isstart}{false}%
-        }%
       \ifthenelse{\isundefined{\@email}}%
         {}%
         {%
@@ -597,12 +592,38 @@
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 13.0cm} R{10.0cm}}
     \ifempty{#2#3}
-      {\entrypositionstyle{#2} & \entrytoolstyle{#4} \\}
+      {\entrypositionstyle{#2} & \entrylocationstyle{#4} \\}
       {\entrycompanystyle{#1} & \entrydatestyle{#3} \\
-      \entrypositionstyle{#2} & \entrytoolstyle{#4} \\}
+      \entrypositionstyle{#2} & \entrylocationstyle{#4} \\}
     \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}}
   \end{tabular*}%
 }
+
+% Define an entry of cv information in paragraph form for other experience
+% Usage: \cvparaentry{<Skills>}{<Company>}{<Position>}{<Dates>}{<Tools>}{<Description>}
+\newcommand*{\cvparaentry}[5]{%
+  \vspace{-2.0mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \paragraphstylelight
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth}}
+    \MakeUppercase{#1}, {#3}, \entrydatestyle{#4}, \textbf{#2}, {#5} \\
+  \end{tabular*}%
+  \vspace{2.0mm}
+}
+
+
+
+% % Define a paragraph for CV
+% \newenvironment{cvparagraph}{%
+%   \vspace{\acvSectionContentTopSkip}
+%   \vspace{-2mm}
+%   \paragraphstylelight
+% }{%
+%   \par
+%   \vspace{-2mm}
+% }
+
 
 % Define a short entry of cv information
 % Usage: \cvshortentry{<Company>}{<Dates>}{<Tools>}
@@ -612,9 +633,9 @@
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
     \ifempty{#2#3}
-      {\entrypositionstyle{#1} & \entrytoolstyle{#2} \\}
+      {\entrypositionstyle{#1} & \entrylocationstyle{#2} \\}
       {\entrycompanystyle{#1} & \entrydatestyle{#2} \\}
-    \multicolumn{2}{R{\textwidth}}{\entrytoolstyle{#3}}
+    \multicolumn{2}{R{\textwidth}}{\entrylocationstyle{#3}}
   \end{tabular*}%
 }
 
@@ -626,8 +647,8 @@
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
     \ifempty{#1#2}
-      {\entrycompanystyle{#1} & \entrydatestyle{#2} \\}
-      {\entrycompanystyle{#1} & \entrydatestyle{#2} \\}
+      {\entrycompanystyle{#1} & \entrylocationstyle{#2} \\}
+      {\entrycompanystyle{#1} & \entrylocationstyle{#2} \\}
   \end{tabular*}%
 }
 
@@ -645,17 +666,16 @@
 }
 
 % Define a subentry of cv information
-% Usage: \cvsubentry{<title>}{<dates>}{<promotion>}{<tools>}{<description>}
-\newcommand*{\cvsubentry}[5]{%
+% Usage: \cvsubentry{<title>}{<dates>}{<promotion>}{<description>}
+\newcommand*{\cvsubentry}[4]{%
   \vspace{-2.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{1.7cm} L{\textwidth - 13.0cm} R{9.0cm} R{1.0cm}}
     \ifempty{#2#3}
       {\subentrypromotionstyle{#3} & \subentrypositionstyle{#1} & \subentrydatestyle{#2} & \\}
-      {& & \subentrydatestyle{#2} & \\
-      \subentrypromotionstyle{#4} & \subentrypositionstyle{#1} & \subentrytoolstyle{#3} & \\}
-      & \multicolumn{2}{L{\textwidth - 3.0cm}}{\descriptionstyle{#5}}
+      {\subentrypromotionstyle{#3} & \subentrypositionstyle{#1} & \subentrydatestyle{#2} & \\}
+      & \multicolumn{2}{L{\textwidth - 3.0cm}}{\descriptionstyle{#4}}
   \end{tabular*}%
 }
 
@@ -674,21 +694,24 @@
 % Define a line of cv information(honor, award or something else)
 % Usage: \cvposition{<promotiontag>}{<position>}{<dates>}
 \newcommand*{\cvposition}[3]{%
-  \honorlocationstyle{#3} & \honorpositionstyle{#1} & \entrytoolstyle{#2} & \\
+  \honorlocationstyle{#3} & \honorpositionstyle{#1} & \entrylocationstyle{#2} & \\
 }
 
 % Define an environment for cvhonor
 \newenvironment{cvhonors}{%
   \vspace{\acvSectionContentTopSkip}
   \vspace{-2mm}
-  \begin{center}
-    \setlength\tabcolsep{0pt}
-    \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{2.0cm} L{\textwidth - 5.5cm} R{3.0cm}}
+  \begin{adjustwidth}{-1cm}{}
+    \begin{center}
+      \setlength\tabcolsep{0pt}
+      \setlength{\extrarowheight}{0pt}
+      \begin{tabular*}{0.9\textwidth}{@{\extracolsep{\fill}} C{2.0cm} L{\textwidth - 5.5cm} R{3.0cm}}
 }{%
-    \end{tabular*}
-  \end{center}
+      \end{tabular*}
+    \end{center}
+  \end{adjustwidth}
 }
+
 % Define a line of cv information(honor, award or something else)
 % Usage: \cvhonor{<honor>}{<description>}{<organization>}{<date>}
 \newcommand*{\cvhonor}[4]{%
@@ -711,9 +734,9 @@
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 2.5cm} R{2.5cm}}
     \ifempty{#2#3}
-      {\entrytoolstyle{#4} & \entrypositionstyle{#2} \\}
+      {\entrylocationstyle{#4} & \entrypositionstyle{#2} \\}
       {\entrycompanystyle{#1} \entrysuperstyle{#5} & \entrydatestyle{#3} \\
-      \entrytoolstyle{#4} & \entrypositionstyle{#2} \\}
+      \entrylocationstyle{#4} & \entrypositionstyle{#2} \\}
   \end{tabular*}%
 }
 
@@ -721,14 +744,17 @@
 \newenvironment{cvdegrees}{%
   \vspace{\acvSectionContentTopSkip}
   \vspace{-2mm}
-  \begin{center}
-    \setlength\tabcolsep{0pt}
-    \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{2.0cm} L{\textwidth - 8.5cm} R{4.5cm}}
+  \begin{adjustwidth}{-1cm}{}
+    \begin{center}
+      \setlength\tabcolsep{0pt}
+      \setlength{\extrarowheight}{0pt}
+      \begin{tabular*}{0.9\textwidth}{@{\extracolsep{\fill}} C{2.0cm} L{\textwidth - 7.0cm} R{4.5cm}}
 }{%
-    \end{tabular*}
-  \end{center}
+      \end{tabular*}
+    \end{center}
+  \end{adjustwidth}
 }
+
 % Define a line of cv information(honor, award or something else)
 % Usage: \cvdegree{<degree>}{<subject>}{<organization>}{<date>}
 \newcommand*{\cvdegree}[4]{%
@@ -769,13 +795,15 @@
 % Define an environment for cvcenterlist
 \newenvironment{cvcenterlist}{%
   \vspace{2mm}
+  \begin{adjustwidth}{5ex}{10ex} % Add this line to set left and right margins
   \begin{justify}
   \paragraphstyle
-  \begin{itemize}[leftmargin=50ex, nosep, noitemsep]
+  \begin{itemize}
     \setlength{\parskip}{0pt}
     \renewcommand{\labelitemi}{\bullet}
 }{%
   \end{itemize}
   \end{justify}
+  \end{adjustwidth} % Add this line to close the adjustwidth environment
   \vspace{-2.0mm}
 }

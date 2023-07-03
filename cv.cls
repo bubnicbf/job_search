@@ -590,7 +590,7 @@
   \vspace{-2.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
-  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 13.0cm} R{10.0cm}}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 10.0cm} R{10.0cm}}
     \ifempty{#2#3}
       {\entrypositionstyle{#2} & \entrylocationstyle{#4} \\}
       {\entrycompanystyle{#1} & \entrydatestyle{#3} \\

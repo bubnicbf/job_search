@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  11 APR 2023 12:00
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2021.11.16)  12 JUL 2023 09:11
 entering extended mode
 **./resume.tex
 (resume.tex
@@ -1054,9 +1054,9 @@ Overfull \hbox (39.23965pt too wide) in alignment at lines 8--22
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <12> not avai
 lable
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 27.
+t line 29.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 27.
+(Font)              scaled to size 12.0pt on input line 29.
  [1
 
 ]) (content/exerience/oex2page.tex
@@ -1090,10 +1090,10 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32677 strings out of 411077
- 650856 string characters out of 2826292
+ 32689 strings out of 411077
+ 651049 string characters out of 2826292
  1138330 words of memory out of 3000000
- 52767 multiletter control sequences out of 15000+600000
+ 52779 multiletter control sequences out of 15000+600000
  407769 words of font info for 114 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  114i,12n,118p,569b,434s stack positions out of 5000i,500n,10000p,200000b,80000s

@@ -1,16 +1,17 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.17)  17 JUL 2023 07:18
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.27)  24 MAY 2024 21:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **resume.tex
 (./resume.tex
-LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-02-22> (./cv.cls
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-06-30>
+(./cv.cls
 Document Class: cv 2023/02/05 Curriculum Vitae Class
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count181
 \c@section=\count182
@@ -29,23 +30,23 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen141
 \ar@mcellbox=\box51
 \extrarowheight=\dimen142
-\NC@list=\toks16
+\NC@list=\toks17
 \extratabsurround=\skip50
 \backup@length=\skip51
 \ar@cellbox=\box52
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\enitkv@toks@=\toks17
+\enitkv@toks@=\toks18
 \labelindent=\skip52
 \enit@outerparindent=\dimen143
-\enit@toks=\toks18
+\enit@toks=\toks19
 \enit@inbox=\box53
 \enit@count@id=\count189
 \enitdp@description=\count190
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/ragged2e/ragged2e.sty
-Package: ragged2e 2023/02/25 v3.4 ragged2e Package
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \CenteringLeftskip=\skip53
 \RaggedLeftLeftskip=\skip54
 \RaggedRightLeftskip=\skip55
@@ -66,7 +67,7 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks19
+\KV@toks@=\toks20
 )
 (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
@@ -85,7 +86,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutheight=\dimen149
 \Gm@layouthoffset=\dimen150
 \Gm@layoutvoffset=\dimen151
-\Gm@dimlist=\toks20
+\Gm@dimlist=\toks21
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
@@ -156,10 +157,10 @@ Package: setspace 2022/12/04 v6.7b set line spacing
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.sty
 (/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/usr/local/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2023-02-22 L3 programming layer (loader) 
+Package: expl3 2023-06-30 L3 programming layer (loader) 
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2023-01-16 L3 backend support: XeTeX
+File: l3backend-xetex.def 2023-04-19 L3 backend support: XeTeX
 \g__graphics_track_int=\count198
 \l__pdf_internal_box=\box54
 \g__pdf_backend_object_int=\count199
@@ -210,7 +211,7 @@ File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2022/04/08 v2.17n AMS math features
+Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip79
 
 For additional information on amsmath, use the `?' option.
@@ -219,7 +220,7 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks21
+\@emptytoks=\toks22
 \ex@=\dimen157
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -259,21 +260,21 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \dotsspace@=\muskip16
 \c@parentequation=\count286
 \dspbrk@lvl=\count287
-\tag@help=\toks22
+\tag@help=\toks23
 \row@=\count288
 \column@=\count289
 \maxfields@=\count290
-\andhelp@=\toks23
+\andhelp@=\toks24
 \eqnshift@=\dimen160
 \alignsep@=\dimen161
 \tagshift@=\dimen162
 \tagwidth@=\dimen163
 \totwidth@=\dimen164
 \lineht@=\dimen165
-\@envbody=\toks24
+\@envbody=\toks25
 \multlinegap=\skip80
 \multlinetaggap=\skip81
-\mathdisplay@stack=\toks25
+\mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
@@ -312,8 +313,8 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks26
-\XKV@tempa@toks=\toks27
+\XKV@toks=\toks27
+\XKV@tempa@toks=\toks28
 )
 \XKV@depth=\count294
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -326,13 +327,13 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 e 123.
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-Package: tcolorbox 2023/02/12 version 6.0.1 text color boxes
+Package: tcolorbox 2023/06/19 version 6.0.4 text color boxes
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks28
+\pgfutil@everybye=\toks29
 \pgfutil@tempdima=\dimen166
 \pgfutil@tempdimb=\dimen167
 )
@@ -366,12 +367,12 @@ Package graphics Info: Driver file: xetex.def on input line 107.
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks29
-\pgfkeys@temptoks=\toks30
+\pgfkeys@pathtoks=\toks30
+\pgfkeys@temptoks=\toks31
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
 tered.code.tex
-\pgfkeys@tmptoks=\toks31
+\pgfkeys@tmptoks=\toks32
 ))
 \pgf@x=\dimen170
 \pgf@y=\dimen171
@@ -389,9 +390,9 @@ tered.code.tex
 \c@pgf@countb=\count296
 \c@pgf@countc=\count297
 \c@pgf@countd=\count298
-\t@pgf@toka=\toks32
-\t@pgf@tokb=\toks33
-\t@pgf@tokc=\toks34
+\t@pgf@toka=\toks33
+\t@pgf@tokb=\toks34
+\t@pgf@tokc=\toks35
 \pgf@sys@id@count=\count299
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
@@ -431,9 +432,9 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 \pgfmath@dimen=\dimen180
 \pgfmath@count=\count303
 \pgfmath@box=\box58
-\pgfmath@toks=\toks35
-\pgfmath@stack@operand=\toks36
-\pgfmath@stack@operation=\toks37
+\pgfmath@toks=\toks36
+\pgfmath@stack@operand=\toks37
+\pgfmath@stack@operation=\toks38
 )
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex)
@@ -576,8 +577,8 @@ Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 )) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2022-07-02 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks38
-\verbatim@line=\toks39
+\every@verbatim=\toks39
+\verbatim@line=\toks40
 \verbatim@in@stream=\read3
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/environ/environ.sty
@@ -599,7 +600,7 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@temp=\box71
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
-Library (tcolorbox): 'tcbskins.code.tex' version '6.0.1'
+Library (tcolorbox): 'tcbskins.code.tex' version '6.0.4'
 (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
 (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
@@ -610,8 +611,8 @@ Library (tcolorbox): 'tcbskins.code.tex' version '6.0.1'
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen263
 \pgffor@skip=\dimen264
-\pgffor@stack=\toks40
-\pgffor@toks=\toks41
+\pgffor@stack=\toks41
+\pgffor@toks=\toks42
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -665,7 +666,7 @@ File: tikzlibraryfill.image.code.tex 2022/07/20 v1.0.0 Image filling library
 \l__tikzfill_img_box=\box76
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
-Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.0.1'
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.0.4'
 ))) (/usr/local/texlive/2023/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
 
@@ -679,7 +680,7 @@ Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
+Package: hyperref 2023-07-08 v7.01b Hypertext links for LaTeX
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
@@ -708,7 +709,7 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+Package: nameref 2023-08-07 v2.53 Cross-referencing by name of section
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
@@ -723,34 +724,31 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 \Hy@linkcounter=\count321
 \Hy@pagecounter=\count322
  (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2023-07-08 v7.01b Hyperref: PDFDocEncoding definition (HO)
 )
 (/usr/local/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(/usr/local/texlive/2023/texmf-dist/tex/generic/etexcmds/etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)
 \Hy@SavedSpaceFactor=\count323
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2023-07-08 v7.01b Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Option `unicode' set `true' on input line 4060.
-Package hyperref Info: Hyper figures OFF on input line 4177.
-Package hyperref Info: Link nesting OFF on input line 4182.
-Package hyperref Info: Hyper index ON on input line 4185.
-Package hyperref Info: Plain pages OFF on input line 4192.
-Package hyperref Info: Backreferencing OFF on input line 4197.
+Package hyperref Info: Option `unicode' set `true' on input line 4050.
+Package hyperref Info: Hyper figures OFF on input line 4167.
+Package hyperref Info: Link nesting OFF on input line 4172.
+Package hyperref Info: Hyper index ON on input line 4175.
+Package hyperref Info: Plain pages OFF on input line 4182.
+Package hyperref Info: Backreferencing OFF on input line 4187.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4425.
+Package hyperref Info: Bookmarks ON on input line 4434.
 \c@Hy@tempcnt=\count324
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4763.
+LaTeX Info: Redefining \url on input line 4772.
 \XeTeXLinkMargin=\dimen275
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
@@ -763,13 +761,13 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 \Fld@menulength=\count325
 \Field@Width=\dimen276
 \Fld@charsize=\dimen277
-Package hyperref Info: Hyper figures OFF on input line 6042.
-Package hyperref Info: Link nesting OFF on input line 6047.
-Package hyperref Info: Hyper index ON on input line 6050.
-Package hyperref Info: backreferencing OFF on input line 6057.
-Package hyperref Info: Link coloring OFF on input line 6062.
-Package hyperref Info: Link coloring with OCG OFF on input line 6067.
-Package hyperref Info: PDF/A mode OFF on input line 6072.
+Package hyperref Info: Hyper figures OFF on input line 6051.
+Package hyperref Info: Link nesting OFF on input line 6056.
+Package hyperref Info: Hyper index ON on input line 6059.
+Package hyperref Info: backreferencing OFF on input line 6066.
+Package hyperref Info: Link coloring OFF on input line 6071.
+Package hyperref Info: Link coloring with OCG OFF on input line 6076.
+Package hyperref Info: PDF/A mode OFF on input line 6081.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
@@ -782,7 +780,7 @@ package with kernel methods
 Package hyperref Info: Driver (autodetected): hxetex.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2023-02-07 v7.00v Hyperref driver for XeTeX
+File: hxetex.def 2023-07-08 v7.01b Hyperref driver for XeTeX
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
@@ -926,6 +924,10 @@ Package hyperref Info: Link coloring OFF on input line 73.
 \@outlinefile=\write4
 \openout4 = `resume.out'.
 
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 \headertextwidth=\skip83
 \headerphotowidth=\skip84
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
@@ -959,7 +961,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
 (./content/skills.tex) (./content/positions.tex) (./content/orgs.tex)
 (./content/dates.tex) (./content/locations.tex) (./content/descriptions.tex)
 (./content/accomplishments.tex) (./content/honors.tex)
-(./content/presentations.tex) (./content/summary/sum2page.tex
+(./content/presentations.tex) (./content/summary/sum.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 16.0pt on input line 4.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
@@ -969,89 +971,71 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 11.
 
-Overfull \hbox (4.49991pt too wide) in paragraph at lines 11--12
-[]\TU/SourceSansPro(2)/m/n/12 Results-driven Data Scientist with a strong backg
-round in software engineering and research,
+Overfull \hbox (1.45992pt too wide) in paragraph at lines 11--12
+[]\TU/SourceSansPro(2)/m/n/12 Results-driven Data Scientist adept at leading cr
+oss-functional teams, optimizing processes,
  []
 
-
-Overfull \hbox (6.34792pt too wide) in paragraph at lines 11--12
-\TU/SourceSansPro(2)/m/n/12 bringing extensive experience in the healthcare ind
-ustry, AI, and cognitive-led transformation
- []
-
-) (./content/skills/ski2page.tex
+) (./content/exerience/exp.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 13.0pt on input line 16.
+(Font)              scaled to size 13.0pt on input line 35.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 13.0pt on input line 16.
-
-Overfull \hbox (121.11212pt too wide) in alignment at lines 9--33
-[] [] 
- []
-
-) (./content/education/cert1page.tex
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 11.0pt on input line 14.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 11.0pt on input line 14.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <11> not avai
-lable
-(Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 14.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 11.0pt on input line 14.
-
-Overfull \hbox (39.23965pt too wide) in alignment at lines 8--22
-[] [] [] 
- []
-
-) (./content/exerience/exp2page.tex
+(Font)              scaled to size 13.0pt on input line 35.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <12> not avai
 lable
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 29.
+t line 35.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 29.
- [1
-
-]) (./content/exerience/oex2page.tex
+(Font)              scaled to size 12.0pt on input line 35.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
+(Font)              scaled to size 11.0pt on input line 35.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <11> not avai
+lable
+(Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
+t line 35.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
+(Font)              scaled to size 11.0pt on input line 35.
+) (./content/exerience/oex.tex
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.00128pt on input line 19.
+(Font)              scaled to size 12.00128pt on input line 18.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.00085pt on input line 19.
+(Font)              scaled to size 8.00085pt on input line 18.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 19.
+(Font)              scaled to size 6.00064pt on input line 18.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 19.
+(Font)              scaled to size 11.99872pt on input line 18.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 19.
+(Font)              scaled to size 7.99915pt on input line 18.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 19.
+(Font)              scaled to size 5.99936pt on input line 18.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 19.
+(Font)              scaled to size 12.0pt on input line 18.
 )
-(./content/awards/awa4page.tex
-Overfull \hbox (39.23965pt too wide) in alignment at lines 8--40
-[] [] [] 
- []
+(./content/education/edu.tex
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
+(Font)              scaled to size 11.0pt on input line 14.
 
-) (./content/education/edu1page.tex
 Overfull \hbox (39.23965pt too wide) in alignment at lines 8--22
 [] [] [] 
  []
 
-) [2] (./resume.aux)
+) [1
+
+] (./resume.aux)
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-06-30>
+ ***********
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33146 strings out of 476683
- 674056 string characters out of 5804047
- 1878018 words of memory out of 5000000
- 52783 multiletter control sequences out of 15000+600000
- 516626 words of font info for 119 fonts, out of 8000000 for 9000
+ 32900 strings out of 475890
+ 664051 string characters out of 5778498
+ 1943875 words of memory out of 5000000
+ 53347 multiletter control sequences out of 15000+600000
+ 562408 words of font info for 123 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 114i,12n,118p,567b,512s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 116i,11n,121p,567b,453s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on resume.pdf (2 pages).
+Output written on resume.pdf (1 page).

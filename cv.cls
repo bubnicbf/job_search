@@ -600,16 +600,16 @@
 }
 
 % Define an entry of cv information in paragraph form for other experience
-% Usage: \cvparaentry{<Skills>}{<Company>}{<Position>}{<Dates>}{<Tools>}{<Description>}
-\newcommand*{\cvparaentry}[5]{%
-  \vspace{-2.0mm}
+% Usage: \cvparaentry{<Skills>}{<Company>}{<Position>}{<Dates>}{<Tools>}
+\newcommand*{\cvparaentry}[4]{%
+  \vspace{-2.5mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \paragraphstylelight
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth}}
-    \MakeUppercase{#1}, {#3}, \entrydatestyle{#4}, \textbf{#2}, {#5} \\
+    \MakeUppercase{#1}, \textbf{#2}, {#3}, \entrydatestyle{#4}. \\
   \end{tabular*}%
-  \vspace{2.0mm}
+  \vspace{-2.5mm}
 }
 
 
@@ -781,7 +781,7 @@
 
 % Define an environment for cvitems(for cventry)
 \newenvironment{cvitems}{%
-  \vspace{4.0mm}
+  \vspace{3.5mm}
   \begin{justify}
   \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
     \setlength{\parskip}{0pt}
@@ -789,7 +789,7 @@
 }{%
   \end{itemize}
   \end{justify}
-  \vspace{-2.0mm}
+  \vspace{-2.5mm}
 }
 
 % Define an environment for cvcenterlist

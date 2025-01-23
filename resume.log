@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.27)  23 JAN 2025 10:41
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.27)  23 JAN 2025 10:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -965,9 +965,9 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 11.
 
-Overfull \hbox (1.45992pt too wide) in paragraph at lines 11--12
-[]\TU/SourceSansPro(2)/m/n/12 Results-driven Data Scientist adept at leading cr
-oss-functional teams, optimizing processes,
+Overfull \hbox (2.98392pt too wide) in paragraph at lines 11--12
+[]\TU/SourceSansPro(2)/m/n/12 Results-driven Data Engineer adept at leading cro
+ss-functional teams, optimizing processes,
  []
 
 ) (./content/exerience/exp.tex

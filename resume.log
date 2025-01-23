@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.27)  25 JUN 2024 11:50
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.27)  23 JAN 2025 10:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -924,6 +924,10 @@ Package hyperref Info: Link coloring OFF on input line 73.
 \@outlinefile=\write4
 \openout4 = `resume.out'.
 
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 \headertextwidth=\skip83
 \headerphotowidth=\skip84
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
@@ -1026,8 +1030,8 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32900 strings out of 475890
- 664051 string characters out of 5778498
+ 32901 strings out of 475890
+ 664064 string characters out of 5778498
  1943875 words of memory out of 5000000
  53347 multiletter control sequences out of 15000+600000
  562408 words of font info for 123 fonts, out of 8000000 for 9000

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.27)  24 JAN 2025 16:03
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.27)  6 FEB 2025 11:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -980,10 +980,31 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 14.0pt on input line 94.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 14.0pt on input line 94.
+
+Overfull \hbox (13.817pt too wide) in paragraph at lines 98--99
+\TU/SourceSansPro(2)/m/n/10 improve patient outcomes. Your emphasis on scalable
+ cloud solutions and data-driven decision-making aligns perfectly with my exper
+ience
+ []
+
+
+Overfull \hbox (2.9236pt too wide) in paragraph at lines 98--99
+\TU/SourceSansPro(2)/m/n/10 in AWS, Redshift, and dbt-driven transformations. A
+dditionally, MacroHealth’s values—teamwork, integrity, and forward-thinking—mat
+ch
+ []
+
+
+Overfull \hbox (2.92528pt too wide) in paragraph at lines 101--102
+[]\TU/SourceSansPro(2)/m/n/10 With my extensive background in Python, SQL, and 
+cloud-based data solutions, I am confident in my ability to contribute to Macro
+Health’s
+ []
+
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 123.
+(Font)              scaled to size 8.0pt on input line 114.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 123.
+(Font)              scaled to size 8.0pt on input line 114.
 [1
 
 ] (./cover.aux)
@@ -995,10 +1016,10 @@ L3 programming layer <2023-06-30>
 Here is how much of TeX's memory you used:
  33479 strings out of 475890
  678570 string characters out of 5778498
- 1925875 words of memory out of 5000000
+ 1924875 words of memory out of 5000000
  53942 multiletter control sequences out of 15000+600000
  560857 words of font info for 124 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 116i,11n,127p,586b,327s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 116i,11n,127p,692b,327s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on cover.pdf (1 page).

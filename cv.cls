@@ -587,7 +587,7 @@
 % Define an entry of cv information
 % Usage: \cventry{<Skills>}{<Company>}{<Position>}{<Dates>}{<Tools>}{<Description>}
 \newcommand*{\cventry}[5]{%
-  \vspace{2.0mm}
+  % \vspace{2.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 10.0cm} R{10.0cm}}
@@ -597,6 +597,7 @@
       \entrypositionstyle{#2} & \entrylocationstyle{#4} \\}
     \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}}
   \end{tabular*}%
+  \vspace{2.0mm}
 }
 
 % Define an entry of cv information in paragraph form for other experience

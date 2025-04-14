@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 22.1) (preloaded format=xelatex 2025.4.14)  14 APR 2025 08:13
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 22.1) (preloaded format=xelatex 2025.4.14)  14 APR 2025 14:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1072,10 +1072,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
-(content/skills.tex) (content/positions.tex) (content/orgs.tex)
-(content/dates.tex) (content/locations.tex) (content/descriptions.tex)
-(content/accomplishments.tex) (content/honors.tex) (content/presentations.tex)
-(content/summary/sum.tex
+(content/accomplishments.tex) (content/dates.tex) (content/descriptions.tex)
+(content/honors.tex) (content/locations.tex) (content/orgs.tex)
+(content/positions.tex) (content/presentations.tex) (content/skills.tex)
+(content/tools.tex) (content/summary/sum.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 16.0pt on input line 4.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
@@ -1146,10 +1146,10 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32960 strings out of 408645
- 663062 string characters out of 5739100
- 1235393 words of memory out of 5000000
- 55478 multiletter control sequences out of 15000+600000
+ 32981 strings out of 408645
+ 663340 string characters out of 5739100
+ 1236394 words of memory out of 5000000
+ 55496 multiletter control sequences out of 15000+600000
  563168 words of font info for 122 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  131i,11n,135p,569b,462s stack positions out of 10000i,1000n,20000p,200000b,200000s

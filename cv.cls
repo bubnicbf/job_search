@@ -186,6 +186,7 @@
 \newcommand*{\entrysuperstyle}[1]{{\textsuperscript{#1}}}
 \newcommand*{\entrypositionstyle}[1]{{\fontsize{11pt}{1em}\bodyfont\scshape\color{graytext} #1}}
 \newcommand*{\entrylocationstyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
+\newcommand*{\entrytoolstyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
 \newcommand*{\entrydatestyle}[1]{{\fontsize{12pt}{1em}\bodyfontlight\slshape\color{highlight} #1}}
 \newcommand*{\descriptionstyle}[1]{{\fontsize{12pt}{1em}\bodyfontlight\upshape\color{text} #1}}
 
@@ -585,30 +586,30 @@
 }
 
 % Define an entry of cv information
-% Usage: \cventry{<Skills>}{<Company>}{<Position>}{<Dates>}{<Tools>}{<Description>}
+% Usage: \cventry{<Company>}{<Position>}{<Location>}{<Dates>}{<Description>}
 \newcommand*{\cventry}[5]{%
   % \vspace{2.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
-  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 10.0cm} R{10.0cm}}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 14.5cm} R{14.5cm}}
     \ifempty{#2#3}
-      {\entrypositionstyle{#2} & \entrylocationstyle{#4} \\}
-      {\entrycompanystyle{#1} & \entrydatestyle{#3} \\
-      \entrypositionstyle{#2} & \entrylocationstyle{#4} \\}
+      {\entrypositionstyle{#2} & \entrydatestyle{#3} \\}
+      {\entrycompanystyle{#1} & \entrytoolstyle{#4} \\
+      \entrypositionstyle{#2} & \entrydatestyle{#3} \\}
     \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}}
   \end{tabular*}%
   \vspace{2.0mm}
 }
 
 % Define an entry of cv information in paragraph form for other experience
-% Usage: \cvparaentry{<Skills>}{<Company>}{<Position>}{<Dates>}{<Tools>}
-\newcommand*{\cvparaentry}[4]{%
+% Usage: \cvparaentry{<Company>}{<Position>}{<Dates>}
+\newcommand*{\cvparaentry}[3]{%
   \vspace{-2.5mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \paragraphstylelight
-  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth}}
-    \MakeUppercase{#1}, \textbf{#2}, {#3}, \entrydatestyle{#4}. \\
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{1.0cm} L{\textwidth}}
+    & \MakeUppercase{#2}, \textbf{#1}, \entrydatestyle{#3}. \\
   \end{tabular*}%
   \vspace{-2.5mm}
 }
@@ -641,15 +642,15 @@
 }
 
 % Define a short header (just company and dates) of cv information
-% Usage: \cvshortheader{<Company>}{<Dates>}
+% Usage: \cvshortheader{<Company>}{<Tools>}
 \newcommand*{\cvshortheader}[2]{%
   \vspace{-1.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
-  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 14.5cm} R{14.5cm}}
     \ifempty{#1#2}
-      {\entrycompanystyle{#1} & \entrylocationstyle{#2} \\}
-      {\entrycompanystyle{#1} & \entrylocationstyle{#2} \\}
+      {\entrycompanystyle{#1} & \entrytoolstyle{#2} \\}
+      {\entrycompanystyle{#1} & \entrytoolstyle{#2} \\}
   \end{tabular*}%
 }
 
@@ -669,14 +670,14 @@
 % Define a subentry of cv information
 % Usage: \cvsubentry{<title>}{<dates>}{<promotion>}{<description>}
 \newcommand*{\cvsubentry}[4]{%
-  \vspace{-2.0mm}
+  \vspace{-1.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
-  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{1.7cm} L{\textwidth - 13.0cm} R{9.0cm} R{1.0cm}}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{1.0cm} L{\textwidth - 10.5cm} R{9.0cm} R{1.5cm}}
     \ifempty{#2#3}
       {\subentrypromotionstyle{#3} & \subentrypositionstyle{#1} & \subentrydatestyle{#2} & \\}
       {\subentrypromotionstyle{#3} & \subentrypositionstyle{#1} & \subentrydatestyle{#2} & \\}
-      & \multicolumn{2}{L{\textwidth - 3.0cm}}{\descriptionstyle{#4}}
+      & \multicolumn{2}{L{\textwidth - 1.5cm}}{\descriptionstyle{#4}}
   \end{tabular*}%
 }
 

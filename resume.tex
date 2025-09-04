@@ -79,9 +79,9 @@
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
 \makecvfooter
-  {}
-  {}
   {\today}
+  {Ben Bubnick~~~·~~~Resume}
+  {\thepage}
 
 
 %-------------------------------------------------------------------------------
@@ -102,9 +102,14 @@
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
-% \input{content/summary/sum.tex}
-\input{content/exerience/exp.tex}
+\input{content/summary/sum.tex}
+\input{content/exerience/cvexp.tex}
 \input{content/exerience/oex.tex}
-\input{content/education/edu.tex}
+% \input{content/summary/award.tex}
+% \input{content/exerience/vol.tex}
+% \pagebreak
+% \input{content/publication/talks.tex}
+% \input{content/publication/pub.tex}
+\input{content/education/cvedu.tex}
 %-------------------------------------------------------------------------------
 \end{document}

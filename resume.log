@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 22.1) (preloaded format=xelatex 2025.4.14)  16 JUL 2025 04:59
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 22.1) (preloaded format=xelatex 2025.4.14)  4 SEP 2025 09:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1075,53 +1075,66 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
 (content/accomplishments.tex) (content/dates.tex) (content/descriptions.tex)
 (content/honors.tex) (content/locations.tex) (content/orgs.tex)
 (content/positions.tex) (content/presentations.tex) (content/skills.tex)
-(content/tools.tex) (content/exerience/exp.tex
+(content/tools.tex) (content/summary/sum.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 16.0pt on input line 4.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 16.0pt on input line 4.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 13.0pt on input line 23.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 13.0pt on input line 23.
+(Font)              scaled to size 12.0pt on input line 9.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 11.0pt on input line 23.
+(Font)              scaled to size 12.0pt on input line 11.
+
+Overfull \hbox (26.1359pt too wide) in paragraph at lines 11--12
+\TU/SourceSansPro(2)/m/n/12 pipelines across cloud platforms, automating valida
+tion processes, and documenting workflows. 
+ []
+
+) (content/exerience/cvexp.tex
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
+(Font)              scaled to size 13.0pt on input line 33.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
+(Font)              scaled to size 13.0pt on input line 33.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
+(Font)              scaled to size 11.0pt on input line 33.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <11> not avai
 lable
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 23.
+t line 33.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 11.0pt on input line 23.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 23.
+(Font)              scaled to size 11.0pt on input line 33.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <12> not avai
 lable
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 23.
+t line 33.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 23.
+(Font)              scaled to size 12.0pt on input line 33.
 
-Overfull \hbox (28.45274pt too wide) in alignment at lines 70--70
+
+[1
+
+]
+Overfull \hbox (28.45274pt too wide) in alignment at lines 108--108
 [] [] [] [] 
  []
 
 
-Overfull \hbox (28.45274pt too wide) in alignment at lines 82--82
+Overfull \hbox (28.45274pt too wide) in alignment at lines 126--126
 [] [] [] [] 
  []
 
 
-Overfull \hbox (28.45274pt too wide) in alignment at lines 94--94
+Overfull \hbox (28.45274pt too wide) in alignment at lines 144--144
 [] [] [] [] 
  []
 
 
-Overfull \hbox (28.45274pt too wide) in alignment at lines 106--106
+Overfull \hbox (28.45274pt too wide) in alignment at lines 161--161
 [] [] [] [] 
  []
 
 
-Overfull \hbox (28.45274pt too wide) in alignment at lines 118--118
+Overfull \hbox (28.45274pt too wide) in alignment at lines 178--178
 [] [] [] [] 
  []
 
@@ -1155,19 +1168,32 @@ Overfull \hbox (28.45274pt too wide) in alignment at lines 42--42
 [] [] 
  []
 
-) (content/education/edu.tex
+) (content/education/cvedu.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 11.0pt on input line 14.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 14.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 11.00117pt on input line 14.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.70078pt on input line 14.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.50058pt on input line 14.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 10.99883pt on input line 14.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.69914pt on input line 14.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.4994pt on input line 14.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
+(Font)              scaled to size 7.69997pt on input line 14.
 
-Overfull \hbox (39.23965pt too wide) in alignment at lines 8--22
+Overfull \hbox (39.23965pt too wide) in alignment at lines 8--34
 [] [] [] 
  []
 
 )
 
-[1
-
-] (resume.aux)
+[2] (resume.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1176,12 +1202,12 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33015 strings out of 408645
- 663642 string characters out of 5739100
- 1237432 words of memory out of 5000000
- 55534 multiletter control sequences out of 15000+600000
- 563160 words of font info for 121 fonts, out of 8000000 for 9000
+ 33085 strings out of 408645
+ 665758 string characters out of 5739100
+ 1236433 words of memory out of 5000000
+ 55589 multiletter control sequences out of 15000+600000
+ 564833 words of font info for 135 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 131i,11n,135p,569b,366s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 131i,12n,135p,569b,468s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on resume.pdf (1 page).
+Output written on resume.pdf (2 pages).

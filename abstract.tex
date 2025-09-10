@@ -6,6 +6,8 @@
 %-------------------------------------------------------------------------------
 % A4 paper size by default, use 'letterpaper' for US letter
 \documentclass[11pt, letterpaper]{cv}
+\usepackage{changepage}
+\usepackage[none]{hyphenat}
 
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
@@ -27,11 +29,11 @@
 
 % Colors for text
 % Uncomment for printing
-% \definecolor{highlight}{HTML}{000000}
-% \definecolor{darktext}{HTML}{000000}
-% \definecolor{text}{HTML}{000000}
-% \definecolor{graytext}{HTML}{000000}
-% \definecolor{lighttext}{HTML}{000000}
+\definecolor{highlight}{HTML}{000000}
+\definecolor{darktext}{HTML}{000000}
+\definecolor{text}{HTML}{000000}
+\definecolor{graytext}{HTML}{000000}
+\definecolor{lighttext}{HTML}{000000}
 
 
 % Set false if you don't want to highlight section with highlight color
@@ -48,10 +50,10 @@
 % Available options: circle|rectangle,edge/noedge,left/right
 % \photo{./examples/profile.png}
 \name{}{Ben Bubnick}
-\position{Data Science{\enskip\cdotp\enskip}Data Curation{\enskip\cdotp\enskip}Data Integration}
-\address{3419 Superior Park Drive, Cleveland Heights, Ohio, 44118, U.S.}
+\position{Healthcare Data Strategy{\enskip\cdotp\enskip}Data Governance{\enskip\cdotp\enskip}Analytics \& BI Consulting}
+%\address{Cleveland Heights, Ohio, 44118} % !! removed from cls 20250123 !!
+\mobile{(216) 556-1612}
 
-\mobile{(+1) 216-556-1612}
 \email{ben.bubnick@gmail.com}
 %\homepage{www.benbubnick.com}
 \github{bubnicbf}
@@ -72,7 +74,7 @@
 
 % Print the header with above personal informations
 % Give optional argument to change alignment(C: center, L: left, R: right)
-\makecvheader
+\makecvheader[L]
 
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
@@ -85,23 +87,24 @@
 %-------------------------------------------------------------------------------
 %	INIT
 %-------------------------------------------------------------------------------
-\input{content/skills.tex}
-\input{content/positions.tex}
-\input{content/orgs.tex}
-\input{content/dates.tex}
-\input{content/tools.tex}
-\input{content/descriptions.tex}
 \input{content/accomplishments.tex}
+\input{content/dates.tex}
+\input{content/descriptions.tex}
 \input{content/honors.tex}
+\input{content/locations.tex}
+\input{content/orgs.tex}
+\input{content/positions.tex}
 \input{content/presentations.tex}
-
+\input{content/skills.tex}
+\input{content/tools.tex}
 
 %-------------------------------------------------------------------------------
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
-\input{content/summary/sum4page.tex}
-\input{content/exerience/exp1page.tex}
-\input{content/education/edu1page.tex}
+% \input{content/summary/sum.tex}
+\input{content/exerience/exp.tex}
+\input{content/exerience/oex.tex}
+\input{content/education/edu.tex}
 %-------------------------------------------------------------------------------
 \end{document}

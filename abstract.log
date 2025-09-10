@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 22.1) (preloaded format=xelatex 2025.4.14)  10 SEP 2025 14:59
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 22.1) (preloaded format=xelatex 2025.4.14)  10 SEP 2025 15:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1155,11 +1155,26 @@ Overfull \hbox (28.45274pt too wide) in alignment at lines 42--42
 [] [] 
  []
 
-) (content/education/edu.tex
+) (content/education/cvedu.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 11.0pt on input line 14.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 14.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 11.00117pt on input line 14.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.70078pt on input line 14.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.50058pt on input line 14.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 10.99883pt on input line 14.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.69914pt on input line 14.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.4994pt on input line 14.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
+(Font)              scaled to size 7.69997pt on input line 14.
 
-Overfull \hbox (39.23965pt too wide) in alignment at lines 8--22
+Overfull \hbox (39.23965pt too wide) in alignment at lines 8--34
 [] [] [] 
  []
 
@@ -1176,12 +1191,12 @@ Package rerunfilecheck Info: File `abstract.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33040 strings out of 408645
- 664166 string characters out of 5739100
- 1237456 words of memory out of 5000000
- 55559 multiletter control sequences out of 15000+600000
- 563160 words of font info for 121 fonts, out of 8000000 for 9000
+ 33064 strings out of 408645
+ 665169 string characters out of 5739100
+ 1240456 words of memory out of 5000000
+ 55573 multiletter control sequences out of 15000+600000
+ 564825 words of font info for 134 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 131i,11n,135p,571b,366s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 131i,12n,135p,571b,398s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on abstract.pdf (1 page).

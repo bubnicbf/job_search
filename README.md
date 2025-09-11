@@ -18,3 +18,21 @@ If your browser supports inline PDFs, you can preview the resume below:
        You can <a href="https://github.com/bubnicbf/job_search/raw/master/output/resume.pdf">download the resume here</a>.</p>
   </embed>
 </object>
+
+---
+
+## Build Instructions
+
+This project includes a `Makefile` to simplify building all documents with **XeLaTeX**.
+
+### Requirements
+- [XeLaTeX](https://tug.org/xetex/) (available through TeX Live or MiKTeX)
+- `make` (built in on macOS/Linux, installable on Windows via WSL or Git Bash)
+
+### Usage
+
+From the repository root:
+
+- **Build everything (CV, resume, abstract):**
+  ```bash
+  make

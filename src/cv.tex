@@ -4,37 +4,39 @@
 %-------------------------------------------------------------------------------
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
-% A4 paper size by default, use 'letterpaper' for US letter
-\documentclass[11pt, letterpaper]{cv}
+\documentclass[11pt, letterpaper]{../styles/cv}
+
+% ---- Path setup for the new layout ----
+% Make \input{} / \include{} look in ../content and class/packages in ../styles
+\makeatletter
+\def\input@path{{../content/}{../styles/}}
+\makeatother
+
+% Graphics search path (if you use images under content/)
+\usepackage{graphicx}
+\graphicspath{{../content/}{../content/assets/}}
+
 \usepackage{changepage}
 \usepackage[none]{hyphenat}
 
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 
-% Specify the location of the included fonts
-\fontdir[fonts/]
+% Fonts directory: point to ../fonts (awesome-cv-style \fontdir macro)
+\newcommand{\fontdirrel}{../fonts/}
+\fontdir[\fontdirrel]
 
 % Color for highlights
 % Predefined Colors
-	% cv-emerald
-	% cv-skyblue
-	% cv-red
-	% cv-pink
-	% cv-orange
-	% cv-nephritis
-	% cv-concrete
-	% cv-darknight
+%   cv-emerald, cv-skyblue, cv-red, cv-pink, cv-orange, cv-nephritis, cv-concrete, cv-darknight
 \colorlet{highlight}{cv-emerald}
 
-% Colors for text
-% Uncomment for printing
+% Colors for text (uncomment for printing true black)
 \definecolor{highlight}{HTML}{000000}
 \definecolor{darktext}{HTML}{000000}
 \definecolor{text}{HTML}{000000}
 \definecolor{graytext}{HTML}{000000}
 \definecolor{lighttext}{HTML}{000000}
-
 
 % Set false if you don't want to highlight section with highlight color
 \setbool{acvSectionColorHighlight}{true}
@@ -42,73 +44,54 @@
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
-
 %-------------------------------------------------------------------------------
-%	PERSONAL INFORMATION
-%	Comment any of the lines below if they are not required
+% PERSONAL INFORMATION
 %-------------------------------------------------------------------------------
-% Available options: circle|rectangle,edge/noedge,left/right
-% \photo{./examples/profile.png}
 \name{}{Ben Bubnick}
 \position{Data Engineer{\enskip\cdotp\enskip}Data Scientist{\enskip\cdotp\enskip}Analytics Specialist}
-%\address{Cleveland Heights, Ohio, 44118} % !! removed from cls 20250123 !!
 \mobile{(216) 556-1612}
-
 \email{ben.bubnick@gmail.com}
-%\homepage{www.benbubnick.com}
 \github{bubnicbf}
 \linkedin{benbubnick}
-% \gitlab{gitlab-id}
-% \stackoverflow{SO-id}{SO-name}
-% \twitter{@twit}
-% \skype{skype-id}
-% \reddit{reddit-id}
-% \extrainfo{extra informations}
-
-% \quote{``I want to use my 15+ years experience to reimagine healthcare by creating, assembling, and improving our business relationships through data science.  I believe that when I inspire people to do the things that inspire them, we can improve the relationship between patient and care team together."}
-
-
 
 %-------------------------------------------------------------------------------
 \begin{document}
 
-% Print the header with above personal informations
-% Give optional argument to change alignment(C: center, L: left, R: right)
 \makecvheader[L]
 
-% Print the footer with 3 arguments(<left>, <center>, <right>)
-% Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
   {Ben Bubnick~~~·~~~Curriculum Vitae}
   {\thepage}
 
+%-------------------------------------------------------------------------------
+% INIT (shared content—now found via ../content thanks to \input@path)
+%-------------------------------------------------------------------------------
+\input{accomplishments.tex}
+\input{dates.tex}
+\input{descriptions.tex}
+\input{honors.tex}
+\input{locations.tex}
+\input{orgs.tex}
+\input{positions.tex}
+\input{presentations.tex}
+\input{skills.tex}
+\input{tools.tex}
 
 %-------------------------------------------------------------------------------
-%	INIT
+% CV/RESUME CONTENT
 %-------------------------------------------------------------------------------
-\input{content/accomplishments.tex}
-\input{content/dates.tex}
-\input{content/descriptions.tex}
-\input{content/honors.tex}
-\input{content/locations.tex}
-\input{content/orgs.tex}
-\input{content/positions.tex}
-\input{content/presentations.tex}
-\input{content/skills.tex}
-\input{content/tools.tex}
+\input{summary/sum.tex}
 
-%-------------------------------------------------------------------------------
-%	CV/RESUME CONTENT
-%	Each section is imported separately, open each file in turn to modify content
-%-------------------------------------------------------------------------------
-\input{content/summary/sum.tex}
-\input{content/exerience/cvexp.tex}
-\input{content/summary/award.tex}
-\input{content/exerience/vol.tex}
+% If your folder is actually "experience", fix the next two lines accordingly:
+\input{exerience/cvexp.tex}
+\input{summary/award.tex}
+\input{exerience/vol.tex}
+
 \pagebreak
-\input{content/publication/talks.tex}
-\input{content/publication/pub.tex}
-\input{content/education/cvedu.tex}
+\input{publication/talks.tex}
+\input{publication/pub.tex}
+\input{education/cvedu.tex}
+
 %-------------------------------------------------------------------------------
 \end{document}

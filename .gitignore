@@ -16,3 +16,7 @@ Thumbs.db
 
 # Editor-specific
 *.swp
+
+# Privacy concerns
+cover.pdf
+cover.tex

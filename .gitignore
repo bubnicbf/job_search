@@ -1,1 +1,22 @@
+# Build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# PDF outputs
+src/*.pdf
+
+# OS-specific
 .DS_Store
+Thumbs.db
+
+# Editor-specific
+*.swp
+
+# Privacy concerns
+cover.pdf
+cover.tex

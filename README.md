@@ -36,3 +36,32 @@ From the repository root:
 - **Build everything (CV, resume, abstract):**
   ```bash
   make
+```
+
+- **Build a specific document:**
+  ```bash
+make cv
+make resume
+make abstract
+```
+
+- **Open the résumé PDF (macOS only):**
+  ```bash
+make open
+```
+
+- **Clean build artifacts (logs, aux files, etc.), keep PDFs:**
+  ```bash
+make clean
+```
+
+- **Clean build artifacts and PDFs:**
+  ```bash
+make distclean
+```
+
+### Outputs
+
+- PDFs are written to the `output/` directory.
+
+- Auxiliary build artifacts (`.aux`, `.log`, `.out`, etc.) are written to `build_artifact/`.

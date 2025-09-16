@@ -12,26 +12,6 @@
 % HDM
 %---------------------------------------------------------
   \cventry
-    {\gda} % Company
-    {\gdaPosition} % Position
-    {\gdaDates} % Dates
-    {\gdaDaTools} % Tools
-    {
-      \begin{cvparagraph} % Description
-        \gdaDescription
-      \end{cvparagraph}
-      \begin{cvitems} % Main Accomplishments
-        \item {\gdaFirstAccomplishment}
-        \item {\gdaSecondAccomplishment}
-        \item {\gdaThirdAccomplishment}
-        \item {\gdaFourthAccomplishment}
-      \end{cvitems}
-    }
-
-%---------------------------------------------------------
-% HDM
-%---------------------------------------------------------
-  \cventry
     {\hdm} % Company
     {\hdmPosition} % Position
     {\hdmDates} % Dates
@@ -41,14 +21,31 @@
         \hdmDescription
       \end{cvparagraph}
       \begin{cvitems} % Main Accomplishments
-        \item {\hdmFirstAccomplishment}
-        \item {\hdmSecondAccomplishment}
-        \item {\hdmThirdAccomplishment}
-        \item {\hdmFourthAccomplishment}
-        \item {\hdmFifthAccomplishment}
-        \item {\hdmSixthAccomplishment}
-        \item {\hdmSeventhAccomplishment}
-        \item {\hdmEighthAccomplishment}
+        \item Designed and maintained reproducible SQLMesh models to ingest, transform, and validate payer and revenue cycle data in Snowflake across multiple client implementations.
+        \item Developed modular ETL pipelines and validation checkpoints (e.g., row counts, null checks, referential integrity) to ensure data quality and support audit-readiness for healthcare data workflows.
+        \item Standardized transformation logic across clients and authored internal documentation to streamline vendor onboarding and reduce knowledge transfer friction.
+        \item Translated business and clinical data requirements into formal technical specifications, improving reproducibility and delivery consistency across project teams.
+        \item Created onboarding playbooks and reusable integration templates to ensure continuity of processes, reduce regression errors, and support scale-out of validated ETL logic.
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+% GrowData Analytics
+%---------------------------------------------------------
+  \cventry
+    {\gda} % Company
+    {\gdaPosition} % Position
+    {\gdaDates} % Dates
+    {\gdaTools} % Tools
+    {
+      \begin{cvparagraph} % Description
+        \gdaDescription
+      \end{cvparagraph}
+      \begin{cvitems} % Main Accomplishments
+        \item Founded GrowData Analytics to apply scientific computing and automation to small-farm decision-making and recordkeeping.
+        \item Designed and validated an OCR-based data extraction pipeline for handwritten and printed agricultural invoices, simulating method development and documentation in regulated workflows.
+        \item Built the Record-Keeping-as-a-Service (RKaaS) platform using Ruby, integrating with GitHub CI for reproducible testing, containerized deployment, and version-controlled audit trails.
+        \item Developed custom classification logic to structure data from livestock, feed, and fuel receipts—supporting quantitative traceability for farm accounting, compliance (e.g., IRS Schedule F), and future agronomic research.
       \end{cvitems}
     }
 
@@ -65,16 +62,16 @@
         \arkosDescription
       \end{cvparagraph}
       \begin{cvitems} % Main Accomplishments
-        \item {\arkosFirstAccomplishment}
-        \item {\arkosSecondAccomplishment}
-        \item {\arkosThirdAccomplishment}
-        \item {\arkosFourthAccomplishment}
-        \item {\arkosFifthAccomplishment}
-        \item {\arkosSixthAccomplishment}
-        \item {\arkosSeventhAccomplishment}
-        \item {\arkosEighthAccomplishment}
-        \item {\arkosNinthAccomplishment}
-        \item {\arkosTenthAccomplishment}
+        \item Engineered a scalable AWS data lake architecture to support ingestion, QA, and analytics workflows for clinical and operational datasets, cutting retrieval times by 50\%.
+        \item Developed and deployed automated CI/CD pipelines, improving delivery consistency and reducing deployment time by 50\%.
+        \item Created detailed metadata reports and lineage documentation, reducing troubleshooting time by 90\% and aligning internal data standards with auditability goals.
+        \item Integrated Jupyter-based reporting for exploratory and production-level analytics, improving stakeholder visibility and reproducibility of results.
+        \item Built interactive Tableau dashboards to track referral sources, operational KPIs, patient outcomes, and regional market penetration.
+        \item Conducted geo-targeted network analysis to identify underserved regions, optimize provider coverage, and support business development decisions.
+        \item Designed and delivered executive summaries and live dashboards for cross-functional stakeholders including medical directors, operations, and finance.
+        \item Standardized reporting logic across teams to support consistent business insights and reduce dashboard rework by over 30\%.
+        \item Championed collaborative tools like Jira and GitHub for work tracking and documentation, improving team communication and coordination by 25\%.
+        \item Mentored junior analysts and engineers, supported onboarding, and led quarterly team retrospectives to refine goals and improve outcomes.
       \end{cvitems}
     }
 
@@ -91,16 +88,16 @@
         \merativeDescription
       \end{cvparagraph}
       \begin{cvitems} % Main Accomplishments
-        \item {\merativeFirstAccomplishment}
-        \item {\merativeSecondAccomplishment}
-        \item {\merativeThirdAccomplishment}
-        \item {\merativeFourthAccomplishment}
-        \item {\merativeFifthAccomplishment}
-        \item {\merativeSixthAccomplishment}
-        \item {\merativeSeventhAccomplishment}
-        \item {\merativeEighthAccomplishment}
+        \item Led a HIPAA-compliant data deidentification program spanning 200M+ patient records, aligning with internal and external regulatory audit standards.
+        \item Designed and implemented automated ETL test suites to validate data fidelity across ingestion, transformation, and delivery layers.
+        \item Conducted rigorous system testing of Azure Data Factory pipelines, Blob Storage access policies, and downstream Synapse transformations during migration from legacy Hadoop systems.
+        \item Developed regression test harnesses and schema comparison utilities, enabling early detection of transformation logic drift and improving QA cycles.
+        \item Documented system-level test plans, architectural diagrams, and stepwise migration procedures to support reproducibility and team onboarding.
+        \item Collaborated cross-functionally with DevOps, QA, and data governance teams to ensure architectural integrity, security compliance, and traceability.
+        \item Supported HITRUST readiness efforts by enhancing pipeline observability and audit coverage through metadata tracking and pipeline logging standards.
       \end{cvitems}
     }
+% \pagebreak
 
 %---------------------------------------------------------
 % IBM
@@ -120,10 +117,12 @@
         \ibmAdsDescription
       \end{cvparagraph}
       \begin{cvitems} % Main Accomplishments
-        \item {\ibmAdsFirstAccomplishment}
-        \item {\ibmAdsSecondAccomplishment}
-        \item {\ibmAdsThirdAccomplishment}
-        \item {\ibmAdsFourthAccomplishment}
+        \item Created an AI-powered surgical scheduling optimization tool (CNN/RNN hybrid), contributing to the foundation of a new product line for procedural planning.
+        \item Led the delivery of custom analytics and reporting pipelines for client-facing healthcare administrative datasets, enabling tailored insight generation.
+        \item Designed and executed data migration validation analysis on over 150 billion patient records, ensuring accuracy during cross-system platform transitions.
+        \item Built a "smart case card" recommender system using deep learning to anticipate surgical supply needs based on procedural and patient history data.
+        \item Partnered with cross-functional teams to integrate predictive models into real-time hospital workflows, with emphasis on reliability, reproducibility, and traceability.
+        \item Developed reproducible research workflows for algorithm validation and documentation to support future FDA-readiness of clinical decision tools.
       \end{cvitems}
     }
 
@@ -138,10 +137,12 @@
         \ibmSdcaDescription
       \end{cvparagraph}
       \begin{cvitems} % Main Accomplishments
-        \item {\ibmSdcaFirstAccomplishment}
-        \item {\ibmSdcaSecondAccomplishment}
-        \item {\ibmSdcaThirdAccomplishment}
-        \item {\ibmSdcaFourthAccomplishment}
+        \item Led integration of over 100 billion structured and semi-structured clinical data records into curated datasets for research and analytics applications.
+        \item Designed and executed topic modeling pipeline on 6 million+ semi-structured provider notes to extract clinical concepts for downstream ML tasks.
+        \item Authored over 25 articles of reproducible data curation workflow documentation to standardize internal processes and support QA readiness.
+        \item Mentored junior curators and machine learning engineers on NLP pipeline tuning, helping streamline handoffs between scientific and engineering teams.
+        \item Developed predictive models for COVID-19 hospitalization risk, integrating structured EHR data and narrative clinical notes.
+        \item Collaborated with clinical SMEs to validate outputs and ensure alignment with evolving public health guidelines and patient safety priorities.
       \end{cvitems}
     }
 
@@ -156,10 +157,12 @@
         \ibmDcaDescription
       \end{cvparagraph}
       \begin{cvitems} % Main Accomplishments
-        \item {\ibmDcaFirstAccomplishment}
-        \item {\ibmDcaSecondAccomplishment}
-        \item {\ibmDcaThirdAccomplishment}
-        \item {\ibmDcaFourthAccomplishment}
+        \item Led enterprise-scale clinical data integration initiative across 70+ interconnected data sources, aligning disparate systems to support research-grade outputs.
+        \item Designed a new validation and review framework that reduced overall rework by 25\%, improving downstream data fidelity and review cycles.
+        \item Reduced mapping redundancies by 45\% through implementation of structured knowledge-sharing pipelines and curated mapping libraries.
+        \item Developed internal best practices for data alignment and clinical terminology standardization to support compliance and regulatory auditability.
+        \item Led mentorship program for new curation analysts, contributing to a 4,500-hour increase in billable project work over two years.
+        \item Coordinated cross-functional teams to troubleshoot integration issues, document resolutions, and improve onboarding materials for future deployments.
       \end{cvitems}
     }
 
@@ -174,9 +177,10 @@
         \ibmSdDescription
       \end{cvparagraph}
       \begin{cvitems} % Main Accomplishments
-        \item {\ibmSdFirstAccomplishment}
-        \item {\ibmSdSecondAccomplishment}
-        \item {\ibmSdThirdAccomplishment}
+        \item Reduced onboarding and knowledge transfer time by 80\% through a complete rewrite of project documentation and internal technical guides.
+        \item Designed and delivered an internal data curation tool, eliminating the need for a \$30,000 annual vendor contract and improving curation throughput.
+        \item Re-engineered the internal education and certification program, reducing cost-per-hire by \$5,210 and increasing training adoption across teams.
+        \item Worked cross-functionally with data scientists and business stakeholders to align software design with evolving data curation requirements.
       \end{cvitems}
     }
 
@@ -191,9 +195,10 @@
         \ibmDsDescription
       \end{cvparagraph}
       \begin{cvitems} % Main Accomplishments
-        \item {\ibmDsFirstAccomplishment}
-        \item {\ibmDsSecondAccomplishment}
-        \item {\ibmDsThirdAccomplishment}
+        \item Managed a remote team of 12 data science contractors, delivering 36 integration projects across clinical and administrative data sources.
+        \item Authored 125+ technical knowledge base articles, comprising over 30\% of the team’s searchable documentation and internal references.
+        \item Built an automated data integration toolkit that reduced redundant development steps by 28\%, accelerating onboarding and delivery cycles.
+        \item Aligned technical delivery with regulatory requirements and QA expectations across multi-institutional client projects.
       \end{cvitems}
     }
 
@@ -210,34 +215,12 @@
         \explorysDescription
       \end{cvparagraph}
       \begin{cvitems} % Main Accomplishments
-        \item {\explorysFirstAccomplishment}
-        \item {\explorysSecondAccomplishment}
-        \item {\explorysThirdAccomplishment}
+        \item Served as the lead integration specialist for over 10 enterprise client data warehouses, managing ingestion of complex healthcare datasets.
+        \item Developed a cron-based scheduling widget to manage blackout periods and optimize timing of sensitive production data pulls.
+        \item Investigated and resolved critical production issues across staging, QA, and live environments, improving system uptime and data fidelity.
+        \item Supported cross-functional data onboarding and QA validation during new product deployments.
       \end{cvitems}
     }
-
-%---------------------------------------------------------
-% Adjunct Work
-%---------------------------------------------------------
-  \cventry
-    {\mult} % Company
-    {\multPosition} % Position
-    {\multDates} % Dates
-    {} % Tools
-    {
-      \begin{cvparagraph} % Description
-        \multDescription
-      \end{cvparagraph}
-      \begin{cvitems} % Main Accomplishments
-        \item {\multFirstAccomplishment}
-        \item {\multSecondAccomplishment}
-        \item {\multThirdAccomplishment}
-        \item {\multFourthAccomplishment}
-        \item {\multFifthAccomplishment}
-        \item {\multSixthAccomplishment}
-      \end{cvitems}
-    }
-
 
 %---------------------------------------------------------
 % AmTrust
@@ -252,9 +235,9 @@
         \amtrustDescription
       \end{cvparagraph}
       \begin{cvitems} % Main Accomplishments
-        \item {\amtrustFirstAccomplishment}
-        \item {\amtrustSecondAccomplishment}
-        \item {\amtrustThirdAccomplishment}
+        \item Led development of core insurance policy software, serving as principal engineer on a new product line and driving two key architecture upgrades.
+        \item Conducted performance profiling across 65+ ISO-based web forms using R, reducing average page load time and improving user experience.
+        \item Designed and implemented a robust unit testing framework for multi-tier MVC components, increasing deployment stability and team productivity.
       \end{cvitems}
     }
 
@@ -272,9 +255,50 @@
         \amtrustDescription
       \end{cvparagraph}
       \begin{cvitems} % Main Accomplishments
-        \item {\ppgFirstAccomplishment}
-        \item {\ppgSecondAccomplishment}
-        \item {\ppgThirdAccomplishment}
+        \item Increased classification algorithm accuracy by 40\% by applying advanced numerical methods to color-matching models, improving prediction across OEM coating systems.
+        \item Built cross-instrument correlation software to support QA and risk analysis, standardizing measurements across spectrophotometers and improving process reliability.
+        \item Contributed to development of an automated color formulation facility by designing tools for pigment data analysis and formulation optimization in high-variance environments.
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+% Adjunct Work
+%---------------------------------------------------------
+  \cventry
+    {\mult} % Company
+    {\multPosition} % Position
+    {\multDates} % Dates
+    {Miami University, Cincinnati State Technical College, Lorain County Community College} % Tools
+    {
+      \begin{cvparagraph} % Description
+        \multDescription
+      \end{cvparagraph}
+      \begin{cvitems} % Main Accomplishments
+        \item Exceeded institutional teaching benchmarks by an average of 16–17\% (2017–2018), reflecting consistently high student satisfaction and instructional effectiveness.
+        \item Created and published 700+ hours of recorded lectures and lab content, increasing accessibility and supporting asynchronous, on-demand learning.
+        \item Reorganized online instructional materials to reduce student confusion by 28\%, minimizing clarification requests and improving self-guided comprehension.
+        \item Applied Just-in-Time Teaching (JiTT) techniques to improve outcomes for at-risk students, resulting in an 18\% average grade increase by term end.
+        \item Designed interactive lab lectures using Interactive Lecture Demonstration (ILD) and Peer Instruction methods to improve engagement and real-time misconception correction.
+      \end{cvitems}
+    }
+
+
+%---------------------------------------------------------
+% University of Cincinnati Research
+%---------------------------------------------------------
+  \cventry
+    {\ucr} % Company
+    {\ucrPosition} % Position
+    {\ucrDates} % Dates
+    {} % Tools
+    {
+      \begin{cvparagraph} % Description
+        \multDescription
+      \end{cvparagraph}
+      \begin{cvitems} % Main Accomplishments
+        \item Contributed over 120 volunteer hours performing data quality control and validation for the Cambridge Astronomical Survey Unit’s Variable Stars database, ensuring reliable measurement and consistency across multi-year observational datasets.
+        \item Conducted research in near-infrared stellar evolution, resulting in 3 peer-reviewed publications within a 24-month period, demonstrating project ownership, data interpretation, and written scientific communication.
+        \item Received the Mary J. Hanna Research Fellowship (2010) for outstanding graduate research performance and scientific promise.
       \end{cvitems}
     }
 

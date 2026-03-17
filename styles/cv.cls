@@ -691,6 +691,7 @@
       {\subentrypromotionstyle{#3} & \subentrypositionstyle{#1} & \subentrydatestyle{#2} & \\}
       & \multicolumn{2}{L{\textwidth - 1.5cm}}{\descriptionstyle{#4}}
   \end{tabular*}%
+  \vspace{1.0mm}
 }
 
 % Define an environment for cvposition

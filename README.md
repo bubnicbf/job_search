@@ -34,6 +34,13 @@ From the repository root:
   make abstract
 ```
 
+- **Force Build a specific document:**
+```bash
+  make -B cv
+  make -B resume
+  make -B abstract
+```
+
 - **Open the résumé PDF (macOS only):**
 ```bash
   make open

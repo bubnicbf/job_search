@@ -56,8 +56,6 @@
 % (https://github.com/posquit0/latex-fontawesome)
 \RequirePackage{fontawesome5}
 \RequirePackage[default,opentype]{sourcesanspro}
-% Needed for the photo ID
-\RequirePackage[skins]{tcolorbox}
 % Needed to deal a paragraphs
 \RequirePackage{parskip}
 % Needed to deal hyperlink

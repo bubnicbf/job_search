@@ -4,7 +4,7 @@ OUT_DIR  := output
 DOCS     := cv abstract resume cover
 PDFS     := $(DOCS:%=$(OUT_DIR)/%.pdf)
 
-XELATEX_FLAGS := -synctex=1 -interaction=nonstopmode \
+XELATEX_FLAGS := -synctex=1 -interaction=nonstopmode -file-line-error \
                  -output-directory=../$(OUT_DIR)
 
 .PHONY: all cv abstract resume cover clean distclean open

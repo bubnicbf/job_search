@@ -1,47 +1,43 @@
-# ===== Makefile =====
-# Build LaTeX docs with XeLaTeX, PDFs in output/, aux in build_artifact/
+ENGINE   := xelatex
+SRC_DIR  := src
+OUT_DIR  := output
+DOCS     := cv abstract resume cover
+PDFS     := $(DOCS:%=$(OUT_DIR)/%.pdf)
 
-# ===== config =====
-ENGINE       := xelatex
-SRC_DIR      := src
-OUT_DIR      := output
-AUX_DIR      := build_artifact
-DOCS         := cv abstract resume
-PDFS         := $(DOCS:%=$(OUT_DIR)/%.pdf)
-
-# XeLaTeX flags
 XELATEX_FLAGS := -synctex=1 -interaction=nonstopmode \
-                 -output-directory=../$(OUT_DIR) \
-                 -aux-directory=../$(AUX_DIR)
+                 -output-directory=../$(OUT_DIR)
 
-# ===== public targets =====
-.PHONY: all cv abstract resume clean distclean open
+.PHONY: all cv abstract resume cover clean distclean open
 
 all: $(PDFS)
 
 cv:        $(OUT_DIR)/cv.pdf
 abstract:  $(OUT_DIR)/abstract.pdf
 resume:    $(OUT_DIR)/resume.pdf
+cover:     $(OUT_DIR)/cover.pdf
 
-# macOS convenience: open the resume PDF
 open: $(OUT_DIR)/resume.pdf
-	@open "$(OUT_DIR)/resume.pdf"
+	open "$(OUT_DIR)/resume.pdf"
 
-# ===== build rule =====
-# Build each PDF by (1) ensuring dirs, (2) running XeLaTeX twice for refs
 $(OUT_DIR)/%.pdf: $(SRC_DIR)/%.tex
-	@mkdir -p "$(OUT_DIR)" "$(AUX_DIR)"
+	@mkdir -p "$(OUT_DIR)"
 	@echo "==> Building $*"
 	@cd "$(SRC_DIR)" && $(ENGINE) $(XELATEX_FLAGS) "$*.tex"
 	@cd "$(SRC_DIR)" && $(ENGINE) $(XELATEX_FLAGS) "$*.tex"
 	@echo "==> Wrote $(OUT_DIR)/$*.pdf"
 
-# ===== cleaning =====
 clean:
-	@echo "==> Cleaning aux/logs"
-	@rm -rf "$(AUX_DIR)"/*
-	@find "$(OUT_DIR)" -name '*.synctex.gz' -delete || true
+	@echo "==> Cleaning aux/log files from $(OUT_DIR)"
+	@rm -f $(OUT_DIR)/*.aux \
+	       $(OUT_DIR)/*.log \
+	       $(OUT_DIR)/*.out \
+	       $(OUT_DIR)/*.toc \
+	       $(OUT_DIR)/*.synctex.gz \
+	       $(OUT_DIR)/*.nav \
+	       $(OUT_DIR)/*.snm \
+	       $(OUT_DIR)/*.fls \
+	       $(OUT_DIR)/*.fdb_latexmk
 
 distclean: clean
-	@echo "==> Removing PDFs"
+	@echo "==> Removing PDFs from $(OUT_DIR)"
 	@rm -f $(OUT_DIR)/*.pdf

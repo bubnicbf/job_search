@@ -56,8 +56,6 @@
 % (https://github.com/posquit0/latex-fontawesome)
 \RequirePackage{fontawesome5}
 \RequirePackage[default,opentype]{sourcesanspro}
-% Needed for the photo ID
-\RequirePackage[skins]{tcolorbox}
 % Needed to deal a paragraphs
 \RequirePackage{parskip}
 % Needed to deal hyperlink
@@ -215,7 +213,7 @@
 \newcommand*{\lettertitlestyle}[1]{{\fontsize{10pt}{1em}\bodyfontlight\bfseries\color{darktext} \underline{#1}}}
 \newcommand*{\letterdatestyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
 \newcommand*{\lettertextstyle}{\fontsize{10pt}{1.4em}\bodyfontlight\upshape\color{graytext}}
-\newcommand*{\letternamestyle}[1]{{\fontsize{10pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
+\newcommand*{\letternamestyle}[1]{{\fontsize{12pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
 \newcommand*{\letterenclosurestyle}[1]{{\fontsize{10pt}{1em}\bodyfontlight\slshape\color{lighttext} #1}}
 
 
@@ -602,6 +600,20 @@
 }
 
 % Define an entry of cv information in paragraph form for other experience
+% Usage: \cvrecogintionentry{<Company>}{<Position>}{<Dates>}{<Description>}
+\newcommand*{\cvrecogintionentry}[4]{%
+  \vspace{-2.5mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \paragraphstylelight
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{0.5cm} L{\textwidth}}
+    & \entrycompanystyle{#1}, \entrypositionstyle{#2} (\entrydatestyle{#3}), \descriptionstyle{#4}. \\
+  \end{tabular*}%
+  \vspace{-2.5mm}
+}
+
+
+% Define an entry of cv information in paragraph form for other experience
 % Usage: \cvparaentry{<Company>}{<Position>}{<Dates>}
 \newcommand*{\cvparaentry}[3]{%
   \vspace{-2.5mm}
@@ -616,15 +628,15 @@
 
 
 
-% % Define a paragraph for CV
-% \newenvironment{cvparagraph}{%
-%   \vspace{\acvSectionContentTopSkip}
-%   \vspace{-2mm}
-%   \paragraphstylelight
-% }{%
-%   \par
-%   \vspace{-2mm}
-% }
+% Define a paragraph for CV
+\newenvironment{cvtrailerparagraph}{%
+  \vspace{\acvSectionContentTopSkip}
+  \vspace{1mm}
+  \paragraphstylelight
+}{%
+  \par
+  \vspace{-2mm}
+}
 
 
 % Define a short entry of cv information
@@ -679,6 +691,7 @@
       {\subentrypromotionstyle{#3} & \subentrypositionstyle{#1} & \subentrydatestyle{#2} & \\}
       & \multicolumn{2}{L{\textwidth - 1.5cm}}{\descriptionstyle{#4}}
   \end{tabular*}%
+  \vspace{1.0mm}
 }
 
 % Define an environment for cvposition
@@ -750,7 +763,7 @@
     \begin{center}
       \setlength\tabcolsep{0pt}
       \setlength{\extrarowheight}{0pt}
-      \begin{tabular*}{0.9\textwidth}{@{\extracolsep{\fill}} C{2.0cm} L{\textwidth - 7.0cm} R{4.5cm}}
+      \begin{tabular*}{0.9\textwidth}{@{\extracolsep{\fill}} C{1.5cm} L{\textwidth - 7.0cm} R{4.5cm}}
 }{%
       \end{tabular*}
     \end{center}
@@ -784,6 +797,19 @@
 % Define an environment for cvitems(for cventry)
 \newenvironment{cvitems}{%
   \vspace{3.5mm}
+  \begin{justify}
+  \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
+    \setlength{\parskip}{0pt}
+    \renewcommand{\labelitemi}{\bullet}
+}{%
+  \end{itemize}
+  \end{justify}
+  \vspace{-2.5mm}
+}
+
+% Define an environment for cvsubitems(for cventry)
+\newenvironment{cvsubitems}{%
+  \vspace{-2.5mm}
   \begin{justify}
   \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
     \setlength{\parskip}{0pt}

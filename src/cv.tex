@@ -23,7 +23,7 @@
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 
 % Fonts directory: point to ../fonts (awesome-cv-style \fontdir macro)
-\newcommand{\fontdirrel}{../fonts/}
+\newcommand{\fontdirrel}{fonts/}
 \fontdir[\fontdirrel]
 
 % Color for highlights
@@ -64,6 +64,7 @@
   {Ben Bubnick~~~·~~~Curriculum Vitae}
   {\thepage}
 
+
 %-------------------------------------------------------------------------------
 % INIT (shared content—now found via ../content thanks to \input@path)
 %-------------------------------------------------------------------------------
@@ -85,10 +86,13 @@
 
 % If your folder is actually "experience", fix the next two lines accordingly:
 \input{exerience/cvexp.tex}
-\input{summary/award.tex}
-\input{exerience/vol.tex}
+\input{summary/recognition.tex}
 
-\pagebreak
+% \pagebreak
+\input{exerience/vol.tex}
+\input{publication/proj.tex}
+
+% \pagebreak
 \input{publication/talks.tex}
 \input{publication/pub.tex}
 \input{education/cvedu.tex}

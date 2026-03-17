@@ -1,3 +1,5 @@
+MAKEFLAGS += -B
+
 ENGINE   := xelatex
 SRC_DIR  := src
 OUT_DIR  := output

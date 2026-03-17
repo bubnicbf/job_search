@@ -607,7 +607,7 @@
   \setlength{\extrarowheight}{0pt}
   \paragraphstylelight
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{0.5cm} L{\textwidth}}
-    & \entrypositionstyle{#2}, \entrycompanystyle{#1} (\entrydatestyle{#3}), \descriptionstyle{#4}. \\
+    & \entrycompanystyle{#1}, \entrypositionstyle{#2} (\entrydatestyle{#3}), \descriptionstyle{#4}. \\
   \end{tabular*}%
   \vspace{-2.5mm}
 }

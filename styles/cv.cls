@@ -600,6 +600,20 @@
 }
 
 % Define an entry of cv information in paragraph form for other experience
+% Usage: \cvrecogintionentry{<Company>}{<Position>}{<Dates>}{<Description>}
+\newcommand*{\cvrecogintionentry}[4]{%
+  \vspace{-2.5mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \paragraphstylelight
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{0.5cm} L{\textwidth}}
+    & \entrypositionstyle{#2}, \entrycompanystyle{#1} (\entrydatestyle{#3}), \descriptionstyle{#4}. \\
+  \end{tabular*}%
+  \vspace{-2.5mm}
+}
+
+
+% Define an entry of cv information in paragraph form for other experience
 % Usage: \cvparaentry{<Company>}{<Position>}{<Dates>}
 \newcommand*{\cvparaentry}[3]{%
   \vspace{-2.5mm}

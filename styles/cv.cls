@@ -748,7 +748,7 @@
     \begin{center}
       \setlength\tabcolsep{0pt}
       \setlength{\extrarowheight}{0pt}
-      \begin{tabular*}{0.9\textwidth}{@{\extracolsep{\fill}} C{0.5cm} L{\textwidth - 6.0cm} R{3.5cm}}
+      \begin{tabular*}{0.9\textwidth}{@{\extracolsep{\fill}} C{1.5cm} L{\textwidth - 6.0cm} R{3.5cm}}
 }{%
       \end{tabular*}
     \end{center}

@@ -4,7 +4,7 @@
 %-------------------------------------------------------------------------------
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
-\documentclass[11pt, letterpaper]{../styles/cv}
+\documentclass[11pt, letterpaper]{../styles/cv_compact}
 
 % ---- Path setup for the new layout ----
 % Make \input{} / \include{} look in ../content and class/packages in ../styles
@@ -48,7 +48,7 @@
 % PERSONAL INFORMATION
 %-------------------------------------------------------------------------------
 \name{}{Ben Bubnick}
-\position{Data Engineer{\enskip\cdotp\enskip}Data Scientist{\enskip\cdotp\enskip}Analytics Specialist}
+\position{Data Governance{\enskip\cdotp\enskip}Data Quality{\enskip\cdotp\enskip}Metadata Strategy}
 % \mobile{(216) 556-1612}
 % \email{ben.bubnick@gmail.com}
 \github{bubnicbf}
@@ -61,7 +61,7 @@
 
 \makecvfooter
   {\today}
-  {Ben Bubnick~~~·~~~Curriculum Vitae}
+  {Ben Bubnick~~~·~~~Resume}
   {\thepage}
 
 
@@ -83,19 +83,20 @@
 % CV/RESUME CONTENT
 %-------------------------------------------------------------------------------
 \input{summary/sum.tex}
+\input{summary/core_skills.tex}
 
 % If your folder is actually "experience", fix the next two lines accordingly:
 \input{exerience/cvexp.tex}
-\input{summary/recognition.tex}
+% \input{summary/recognition.tex}
 
 % \pagebreak
-\input{exerience/vol.tex}
-\input{publication/proj.tex}
+% \input{exerience/vol.tex}
+% \input{publication/proj.tex}
 
 % \pagebreak
-\input{publication/talks.tex}
-\input{publication/pub.tex}
-\input{education/cvedu.tex}
+% \input{publication/talks.tex}
+% \input{publication/pub.tex}
+\input{education/edu.tex}
 
 %-------------------------------------------------------------------------------
 \end{document}

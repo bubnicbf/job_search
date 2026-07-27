@@ -1,108 +1,79 @@
 % ----------------------------------------------------------
+% HHAX
+% ----------------------------------------------------------
+% 		Data Engineering Consultant
+\newcommand\hhaxTopAccomplishment{Led delivery of Snowflake/dbt pipelines that transformed operational healthcare data into standardized, analytics-ready models.}
+\newcommand\hhaxFirstAccomplishment{Designed organization, office, caregiver, patient, and crosswalk models using FHIR-aligned concepts and stable identity-resolution patterns.}
+\newcommand\hhaxSecondAccomplishment{Built reusable SQL/Jinja transformations for lifecycle fields, null handling, sentinel dates, and source-system variations.}
+\newcommand\hhaxThirdAccomplishment{Developed QA suites covering duplicates, nulls, referential integrity, business rules, and source-to-target reconciliation.}
+\newcommand\hhaxFourthAccomplishment{Partnered with stakeholders to resolve source ambiguity, document mapping standards, and establish reusable onboarding patterns.}
+
+
+% ----------------------------------------------------------
 % GrowData
 % ----------------------------------------------------------
-% 		Principal Data Engineer
-\newcommand\gdaDeTopAccomplishment{Led end-to-end design and delivery of healthcare data integration pipelines, converting operational source data into curated analytics-ready models for reporting and downstream use.}
-\newcommand\gdaDeFirstAccomplishment{Conducted feasibility analysis of source-system structures and implementation constraints to shape integration scope, modeling strategy, and delivery approach.}
-\newcommand\gdaDeSecondAccomplishment{Designed and refined core domain models for organization, office, caregiver, patient, and crosswalk entities to support standardized healthcare data workflows.}
-\newcommand\gdaDeThirdAccomplishment{Structured target models using FHIR-like concepts where appropriate, improving consistency and extensibility for downstream integration and analytics use cases.}
-\newcommand\gdaDeFourthAccomplishment{Developed reusable ETL and transformation logic across development and sandbox environments using SQL and warehouse-native modeling practices.}
-\newcommand\gdaDeFifthAccomplishment{Implemented source-to-target standardization patterns for null handling, lifecycle fields, sentinel dates, and source-specific variation.}
-\newcommand\gdaDeSixthAccomplishment{Defined surrogate key, natural key, and crosswalk strategies to enable stable identity resolution across related source systems.}
-\newcommand\gdaDeSeventhAccomplishment{Designed and executed comprehensive QA and data-integrity test packs covering row counts, duplicates, nulls, referential integrity, reconciliation, and exception handling.}
-\newcommand\gdaDeEighthAccomplishment{Resolved data-quality and mapping issues through targeted test-case analysis and review of failing source and target records.}
-\newcommand\gdaDeNinthAccomplishment{Documented mapping logic, model assumptions, QA expectations, and implementation standards to improve delivery reliability and reuse.}
-\newcommand\gdaDeTenthAccomplishment{Collaborated with client and internal stakeholders to resolve source ambiguity, refine requirements, and translate business needs into production-ready data assets.}
-\newcommand\gdaDeEleventhAccomplishment{Supported future scalability by establishing reusable patterns for onboarding additional sources and extending integration workflows.}
-
-
-% ----------------------------------------------------------
 % 		Principal ML Engineer
-\newcommand\gdaTopAccomplishment{Productized OCR → structured data pipeline for farm invoices (handwritten/printed) using Tesseract + rule-based post-processing; shipped as a small Python/Ruby service with containerized deployments and versioned configs.}
-\newcommand\gdaFirstAccomplishment{Built validation \& reconciliation layers (schema checks, cross-field rules, idempotent re-runs) and produced audit logs to support bookkeeping/compliance workflows.}
-\newcommand\gdaSecondAccomplishment{Implemented CI/CD (unit tests, linting, fixtures, golden-file tests) and release automation; documented runbooks and failure modes (timeouts, low-confidence OCR, retries).}
-\newcommand\gdaThirdAccomplishment{Delivered a lightweight analytics layer (usage metrics, error taxonomy, latency/throughput dashboards) to guide feature tuning and cost control.}
-\newcommand\gdaFourthAccomplishment{Owned infra as code for a minimal AWS footprint (S3 for artifacts, Lambda/Cron for jobs, CloudWatch alerts); operated via UNIX-like CLI workflows (Bash/Zsh, Makefile targets).}
+\newcommand\gdaTopAccomplishment{Built a Python/Ruby OCR service that converted handwritten and printed invoices into structured transaction data.}
+\newcommand\gdaFirstAccomplishment{Implemented validation rules, audit logs, idempotent reruns, automated testing, and CI/CD for reliable processing.}
+\newcommand\gdaSecondAccomplishment{Deployed a cost-conscious AWS workflow using S3, Lambda, scheduled jobs, CloudWatch alerts, and operational dashboards.}
 
 
 % ----------------------------------------------------------
-% HDM
+% Adonis
 % ----------------------------------------------------------
-% 		Data Engineer
-\newcommand\hdmFirstAccomplishment{Built a reusable ingestion \& transformation framework in SQLMesh/Snowflake (templated models, data contracts, CI checks, promotion gates), enabling consistent, repeatable onboardings.}
-\newcommand\hdmSecondAccomplishment{Added observability \& auditability (row-count/parity checks, schema drift alerts, reconciliation logs) and wrote runbooks for deterministic re-runs and incident handling on UNIX-like systems.}
-\newcommand\hdmThirdAccomplishment{Shipped a lightweight forecasting/alerting pattern (Python service + Docker + Actions) for operations signals; packaged with tests and deployment automation.}
-\newcommand\hdmFourthAccomplishment{Created testable, modular SQLMesh models, reducing regression errors and accelerating iteration cycles.}
-\newcommand\hdmFifthAccomplishment{Standardized and documented transformation logic across clients in order to cut onboarding documentation.}
-\newcommand\hdmSixthAccomplishment{Established validation and audit checkpoints (e.g., row counts, null checks, referential integrity).}
-\newcommand\hdmSeventhAccomplishment{Translated business requirements into technical specifications to improve delivery predictability.}
-\newcommand\hdmEighthAccomplishment{Built detailed integration playbooks to be used as the internal standard for onboarding new vendors and partners.}
+% 		Data Engineering Consultant
+\newcommand\adonisFirstAccomplishment{Built a reusable SQLMesh/Snowflake ingestion framework with templated models, data contracts, CI checks, and promotion gates.}
+\newcommand\adonisSecondAccomplishment{Added schema-drift detection, reconciliation checks, audit logs, and deterministic recovery procedures.}
+\newcommand\adonisThirdAccomplishment{Developed modular transformations and validation checkpoints that reduced regression risk and accelerated onboarding.}
+\newcommand\adonisFourthAccomplishment{Translated client requirements into technical specifications, mapping standards, and reusable integration playbooks.}
 
 
 % ----------------------------------------------------------
 % Arkos
 % ----------------------------------------------------------
 % 		Senior Data Analyst
-\newcommand\arkosFirstAccomplishment{Stood up an AWS data lake with CI/CD (dbt + Git flows), cost-aware partitioning, and job scheduling; reduced deployment time ~50\% and improved query performance with targeted model refactors.}
-\newcommand\arkosSecondAccomplishment{Implemented monitoring/alerting \& on-call runbooks (metrics, logs, failure taxonomies) to lower MTTR and improve data reliability.}
-\newcommand\arkosThirdAccomplishment{Mentored engineers on code reviews, testing, and pipeline design; authored internal standards that lifted team delivery quality.}
-\newcommand\arkosFourthAccomplishment{Integrated Jupyter into reporting, boosting report interactivity and increasing stakeholder satisfaction by 30\%.}
-\newcommand\arkosFifthAccomplishment{Created comprehensive data lake documentation, reducing onboarding time for new team members by 40\%.}
-\newcommand\arkosSixthAccomplishment{Implemented Jira and GitHub, enhancing task tracking and team coordination by 25\% within three months.}
-\newcommand\arkosSeventhAccomplishment{Enhanced cross-departmental collaboration, increasing data-driven decision-making by 15\% in six months.}
-\newcommand\arkosEighthAccomplishment{Mentored junior team members, improving their performance metrics by 30\% in six months.}
-\newcommand\arkosNinthAccomplishment{Led goal-setting sessions, improving goal alignment and tracking accuracy by 30\% in the first quarter.}
-\newcommand\arkosTenthAccomplishment{Initiated stakeholder feedback sessions, improving deliverable relevance and accuracy by 25\% in three months.}
+\newcommand\arkosFirstAccomplishment{Built an AWS data lake with dbt-based CI/CD, cost-aware partitioning, and job scheduling, cutting deployment time by approximately 50\%.}
+\newcommand\arkosSecondAccomplishment{Improved reliability through pipeline monitoring, failure classification, alerting, and incident-response runbooks.}
+\newcommand\arkosThirdAccomplishment{Integrated Jupyter-based reporting and documented the platform, improving analytical usability and developer onboarding.}
+\newcommand\arkosFourthAccomplishment{Mentored engineers and established standards for code review, testing, pipeline design, and stakeholder delivery.}
 
 
 % ----------------------------------------------------------
 % Merative
 % ----------------------------------------------------------
 % 		Senior Data Scientist
-\newcommand\merativeFirstAccomplishment{Led HIPAA-compliant deidentification initiative across 200+ million patient records.}
-\newcommand\merativeSecondAccomplishment{Designed and implemented an automated testing framework for ETL pipelines for validation coverage.}
-\newcommand\merativeThirdAccomplishment{Validated and optimized Azure-based data workflows, ensuring continuity and fidelity during the transition from legacy HDFS systems to cloud architecture.}
-\newcommand\merativeFourthAccomplishment{Conducted end-to-end system testing for Azure Data Factory pipelines, Blob Storage configurations, and downstream Synapse integrations.}
-\newcommand\merativeFifthAccomplishment{Collaborated with engineering teams across disciplines to refine architectural designs.}
-\newcommand\merativeSixthAccomplishment{Documented test plans and platform migration procedures for improving onboarding for future QA engineers.}
-\newcommand\merativeSeventhAccomplishment{Built regression test suites and data comparison tools, detecting schema drift and transformation errors early in the development lifecycle.}
-\newcommand\merativeEighthAccomplishment{Ensured compliance with data governance and security protocols to reduce audit risks and support HITRUST readiness.}
+\newcommand\merativeFirstAccomplishment{Led HIPAA-compliant deidentification across more than 200 million patient records.}
+\newcommand\merativeSecondAccomplishment{Built automated regression and data-comparison tests to detect schema drift and transformation errors.}
+\newcommand\merativeThirdAccomplishment{Validated migration workflows across Azure Data Factory, Blob Storage, SQL Database, and Synapse Analytics.}
+\newcommand\merativeFourthAccomplishment{Documented migration procedures and enforced governance controls supporting HITRUST readiness.}
 
 
 % ----------------------------------------------------------
 % IBM
 % ----------------------------------------------------------
-% 		Advisory Data Scientist
-\newcommand\ibmAdsFirstAccomplishment{Created AI Surgical Scheduling Optimization tool currently evolving into new offering.}
-\newcommand\ibmAdsSecondAccomplishment{Led delivery on tailored analytics and reporting project for client administrative data.}
-\newcommand\ibmAdsThirdAccomplishment{Developed data migration validation analysis on 150+ billion patient records.}
-\newcommand\ibmAdsFourthAccomplishment{Developed surgical smart case card using combined CNN/RNN model.}
+% 		Senior Data Scientist
+\newcommand\ibmAdsFirstAccomplishment{Built surgical scheduling optimization and CNN/RNN case-card solutions.}
+\newcommand\ibmAdsSecondAccomplishment{Led client analytics delivery and validated the migration of more than 150 billion patient records.}
 
 % ----------------------------------------------------------
-% 		Senior Data Curation Architect
-\newcommand\ibmSdcaFirstAccomplishment{Developed clinical data integration of 100+ billion structured \& semi-structured records.}
-\newcommand\ibmSdcaSecondAccomplishment{Developed topic modelling project on nearly 6 million semi-structured provider notes data.}
-\newcommand\ibmSdcaThirdAccomplishment{Curated 25 pages of workflow documentation and mentored new hires in AI tuning process.}
-\newcommand\ibmSdcaFourthAccomplishment{Created COVID-19 hospitalization prediction tool with Machine Learning algorithms.}
+% 		Senior Data Architect
+\newcommand\ibmSdcaFirstAccomplishment{Led integration of more than 100 billion clinical records and topic modeling across nearly six million provider notes.}
+\newcommand\ibmSdcaSecondAccomplishment{Built a COVID-19 hospitalization model while documenting AI workflows and mentoring new hires.}
 
 % ----------------------------------------------------------
 % 		Data Curation Architect
 \newcommand\ibmDcaFirstAccomplishment{Managed multi-org enterprise integration with over 70 interconnected data sources.}
 \newcommand\ibmDcaSecondAccomplishment{Developed new data validation and review process that reduced total rework by 25\%.}
-\newcommand\ibmDcaThirdAccomplishment{Reduced mapping rework by 45\% with through new knowledge-driven initiatives.}
-\newcommand\ibmDcaFourthAccomplishment{Led mentoring program to increase 4,500 billable hours over two year period.}
 
 % ----------------------------------------------------------
 % 		Software Developer
-\newcommand\ibmSdFirstAccomplishment{Reduced time spent on knowledge transfer by 80\% by rewriting project documentation.}
-\newcommand\ibmSdSecondAccomplishment{Eliminated need for a \$30,000 annual contract by developing data curation tool.}
-\newcommand\ibmSdThirdAccomplishment{Reduced cost-per-hire by \$5,210 by re-developing education program.}
+\newcommand\ibmSdFirstAccomplishment{Built a data-curation tool that replaced a \$30,000 annual contract.}
+\newcommand\ibmSdSecondAccomplishment{Redesigned documentation and training, reducing knowledge-transfer time by 80\%.}
 
 % ----------------------------------------------------------
 % 		Data Scientist
-\newcommand\ibmDsFirstAccomplishment{Managed team of 12 remote data science contractors for 36 integration projects.}
-\newcommand\ibmDsSecondAccomplishment{Created over 125 new knowledge base articles, making up 30\% of the team's online content.}
-\newcommand\ibmDsThirdAccomplishment{Developed automated data integration tool to cut out 28\% unnecessary development time.}
+\newcommand\ibmDsFirstAccomplishment{Managed 12 remote contractors across 36 data-integration projects.}
+\newcommand\ibmDsSecondAccomplishment{Built automation that eliminated 28\% of unnecessary development work.}
 
 % ----------------------------------------------------------
 % Explorys
@@ -110,38 +81,34 @@
 % 		Data Scientist
 % ----------------------------------------------------------
 % 		Data Scientist Consultant
-\newcommand\explorysFirstAccomplishment{Principal integration specialist for 10+ client database warehouses.}
-\newcommand\explorysSecondAccomplishment{Performed troubleshooting on production issues across multiple environments.}
-\newcommand\explorysThirdAccomplishment{Developed cron-based widget to define blackout periods for client data pulls.}
+\newcommand\explorysFirstAccomplishment{Served as principal integration specialist for more than 10 client data warehouses.}
+\newcommand\explorysSecondAccomplishment{Troubleshot production pipelines and built scheduling controls for client data ingestion.}
 
 
 % ----------------------------------------------------------
 % Adjunct Work
 % ----------------------------------------------------------
 % 		Adjunct Professor
-\newcommand\multFirstAccomplishment{Consistently exceeded student evaluation benchmarks, surpassing institutional feedback goals by an average of 16\% in 2017 and 17\% in 2018, reflecting strong teaching effectiveness and student satisfaction.}
-\newcommand\multSecondAccomplishment{Improved student comprehension and course navigation by reorganizing online instructional materials, resulting in a 28\% reduction in reported confusion and fewer clarification requests during office hours.}
-\newcommand\multThirdAccomplishment{Developed and published over 700 hours of recorded lectures and lab content, enhancing accessibility and supporting flexible, on-demand learning for both traditional and non-traditional students.}
-\newcommand\multFourthAccomplishment{Implemented Just-in-Time Teaching (JiTT) strategies for underperforming students, leading to an average grade improvement of 18\% by the end of term.}
-\newcommand\multFifthAccomplishment{Designed interactive lab lectures based on the Interactive Lecture Demonstration (ILD) method, increasing student engagement and concept retention in physics instruction.}
-\newcommand\multSixthAccomplishment{Promoted collaborative learning through Peer Instruction and ILD techniques, effectively addressing real-time student misconceptions during physics lab sessions.}
+\newcommand\multFirstAccomplishment{Taught physics and astronomy courses using interactive, peer-led, and just-in-time instructional methods.}
+\newcommand\multSecondAccomplishment{Produced more than 700 hours of recorded lectures and lab material for on-demand learning.}
+\newcommand\multThirdAccomplishment{Exceeded evaluation benchmarks by 16–17\% year over year.}
 
 % ----------------------------------------------------------
 % AmTrust
 % ----------------------------------------------------------
 % 		Software Engineer
-\newcommand\amtrustFirstAccomplishment{Led development on core insurance policy software, serving as principal developer for a new product offering and contributing to two major architectural initiatives in 2015.}
-\newcommand\amtrustSecondAccomplishment{Analyzed and optimized performance across 65+ ISO rating-based web forms using R, identifying bottlenecks and reducing page load times.}
-\newcommand\amtrustThirdAccomplishment{Championed and implemented a unit testing framework for multi-tier MVC components, improving code quality and reducing deployment errors across the dev team.}
+\newcommand\amtrustFirstAccomplishment{Led development of insurance policy software and a new product offering.}
+\newcommand\amtrustSecondAccomplishment{Analyzed 65+ rating forms to identify and resolve performance bottlenecks.}
+\newcommand\amtrustThirdAccomplishment{Introduced unit testing for multi-tier MVC components.}
 
 
 % ----------------------------------------------------------
 % PPG
 % ----------------------------------------------------------
 % 		Color Scientist
-\newcommand\ppgFirstAccomplishment{Improved color matching classification algorithm accuracy by 40\% by developing and applying advanced numerical methods, enhancing product performance across automotive coatings.}
-\newcommand\ppgSecondAccomplishment{Developed cross-instrument correlation software to support a risk analysis initiative, enabling consistent color measurement across varying hardware platforms and improving QA reliability.}
-\newcommand\ppgThirdAccomplishment{Supported the creation of an industry-leading automated color matching facility, developing numerical tools and methods to improve formulation quality and pigment data analysis in high-variance OEM color environments.}
+\newcommand\ppgFirstAccomplishment{Improved color-matching classification accuracy by 40\% through advanced numerical methods.}
+\newcommand\ppgSecondAccomplishment{Built cross-instrument correlation software that improved measurement consistency and QA reliability.}
+\newcommand\ppgThirdAccomplishment{Developed formulation and pigment-analysis methods for an automated automotive color-matching facility.}
 
 % ----------------------------------------------------------
 % University of Cincinnati

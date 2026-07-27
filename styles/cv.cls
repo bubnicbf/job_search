@@ -584,20 +584,34 @@
 }
 
 % Define an entry of cv information
-% Usage: \cventry{<Company>}{<Position>}{<Location>}{<Dates>}{<Description>}
+% Usage:
+% \cventry{<Company>}{<Position>}{<Dates>}{<Tools>}{<Description>}
 \newcommand*{\cventry}[5]{%
-  % \vspace{2.0mm}
-  \setlength\tabcolsep{0pt}
+  \setlength{\tabcolsep}{0pt}
   \setlength{\extrarowheight}{0pt}
-  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 14.5cm} R{14.5cm}}
-    \ifempty{#2#3}
-      {\entrypositionstyle{#2} & \entrydatestyle{#3} \\}
-      {\entrycompanystyle{#1} & \entrytoolstyle{#4} \\
-      \entrypositionstyle{#2} & \entrydatestyle{#3} \\}
-    \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}}
+
+  \begin{tabular*}{\textwidth}{
+    @{\extracolsep{\fill}}
+    L{4cm}
+    L{\textwidth - 9.5cm}
+    R{4.5cm}
+  }
+    % Company in column 1; tools span columns 2–3
+    \entrycompanystyle{#1}
+      & \multicolumn{2}{r}{\entrytoolstyle{#4}} \\
+
+    % Position spans columns 1–2; dates in column 3
+    \multicolumn{2}{l}{\entrypositionstyle{#2}}
+      & \entrydatestyle{#3} \\
+
+    % Description spans all columns
+    \multicolumn{3}{L{\textwidth}}{\descriptionstyle{#5}}
   \end{tabular*}%
+
   \vspace{2.0mm}
 }
+
+
 
 % Define an entry of cv information in paragraph form for other experience
 % Usage: \cvrecogintionentry{<Company>}{<Position>}{<Dates>}{<Description>}

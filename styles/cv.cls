@@ -670,7 +670,7 @@
 % Define a short header (just company and dates) of cv information
 % Usage: \cvshortheader{<Company>}{<Tools>}
 \newcommand*{\cvshortheader}[2]{%
-  \vspace{-1.0mm}
+  \vspace{0.5mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 14.5cm} R{14.5cm}}

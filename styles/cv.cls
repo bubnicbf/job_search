@@ -680,6 +680,17 @@
   \end{tabular*}%
 }
 
+% Description shared by all positions at one company
+% Usage: \cvcompanydescription{<description>}
+\newcommand*{\cvcompanydescription}[1]{%
+  \vspace{-1.0mm}
+  \setlength{\tabcolsep}{0pt}
+  \begin{tabular*}{\textwidth}{@{}L{\textwidth}@{}}
+    \descriptionstyle{#1}
+  \end{tabular*}%
+  \vspace{-4.0mm}
+}
+
 % Define a sub header (just promotion tag, company and dates) of cv information
 % Usage: \cvsubheader{<title>}{<dates>}{<promotion>}
 \newcommand*{\cvsubheader}[3]{%
@@ -707,6 +718,40 @@
   \end{tabular*}%
   \vspace{1.0mm}
 }
+
+% Compact subentry containing only a role header and bullets
+% Usage: \cvsubentryitems{<position>}{<dates>}{<promotion>}{<items>}
+\newcommand*{\cvsubentryitems}[4]{%
+  \vspace{0.5mm}
+  \setlength{\tabcolsep}{0pt}
+  \setlength{\extrarowheight}{0pt}
+
+  \begin{tabular*}{\textwidth}{
+    @{\extracolsep{\fill}}
+    C{1.0cm}
+    L{\textwidth - 6.5cm}
+    R{5.0cm}
+    C{0.5cm}
+  }
+    \subentrypromotionstyle{#3}
+      & \subentrypositionstyle{#1}
+      & \subentrydatestyle{#2} & \\
+  \end{tabular*}%
+
+  \vspace{-2.5mm}
+  \begin{adjustwidth}{1.0cm}{1.5cm}
+    \descriptionstyle{%
+      \RaggedRight
+      \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
+        \setlength{\parskip}{0pt}
+        \renewcommand{\labelitemi}{\bullet}
+        #4
+      \end{itemize}
+    }
+  \end{adjustwidth}
+  \vspace{-2.5mm}
+}
+
 
 % Define an environment for cvposition
 \newenvironment{cvpositions}{%
@@ -787,50 +832,61 @@
 % Define a line of cv information(honor, award or something else)
 % Usage: \cvdegree{<degree>}{<subject>}{<organization>}{<date>}
 \newcommand*{\cvdegree}[4]{%
-  \honordatestyle{#4} & \honorpositionstyle{#1}, \honortitlestyle{#2} & \honorlocationstyle{#3} \\
+  \honordatestyle{#4} & \honorpositionstyle{#1} \honortitlestyle{#2} & \honorlocationstyle{#3} \\
 }
 
-% Define an environment for cvskill
+% Two-column skills table:
+% - natural-width, right-aligned label
+% - wrapping skill text
+% - total width constrained to \textwidth
 \newenvironment{cvskills}{%
   \vspace{\acvSectionContentTopSkip}
   \vspace{-2.0mm}
   \begin{center}
-    \setlength\tabcolsep{1ex}
+    \setlength{\tabcolsep}{0pt}
     \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} r L{\textwidth * \real{0.9}}}
+    \begin{tabular}{
+      @{}
+      r
+      @{\hspace{1em}}
+      l
+      @{}
+    }
 }{%
-    \end{tabular*}
+    \end{tabular}
   \end{center}
 }
-% Define a line of cv information(skill)
-% Usage: \cvskill{<type>}{<skillset>}
+
 \newcommand*{\cvskill}[2]{%
-  \skilltypestyle{#1} & \skillsetstyle{#2} \\
+  \skilltypestyle{#1}
+  &
+  \vtop{%
+    \hsize=\dimexpr\textwidth-2.35in\relax
+    \raggedright
+    \noindent\skillsetstyle{#2}\par
+  }
+  \\
 }
 
 % Define an environment for cvitems(for cventry)
 \newenvironment{cvitems}{%
   \vspace{3.5mm}
-  \begin{justify}
+  \RaggedRight
   \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
     \setlength{\parskip}{0pt}
     \renewcommand{\labelitemi}{\bullet}
 }{%
   \end{itemize}
-  \end{justify}
   \vspace{-2.5mm}
 }
 
 % Define an environment for cvsubitems(for cventry)
 \newenvironment{cvsubitems}{%
   \vspace{-2.5mm}
-  \begin{justify}
-  \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
     \setlength{\parskip}{0pt}
     \renewcommand{\labelitemi}{\bullet}
 }{%
   \end{itemize}
-  \end{justify}
   \vspace{-2.5mm}
 }
 
